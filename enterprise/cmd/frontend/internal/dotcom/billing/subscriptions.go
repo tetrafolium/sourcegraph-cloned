@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/stripe/stripe-go"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
 )
 
 // ToSubscriptionItemsParams converts a value of GraphQL type ProductSubscriptionInput into a

@@ -1,6 +1,6 @@
 package graphqlbackend
 
-import "github.com/tetrafolium/sourcegraph/internal/vcs/git"
+import "github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
 
 type gitSubmoduleResolver struct {
 	submodule git.Submodule

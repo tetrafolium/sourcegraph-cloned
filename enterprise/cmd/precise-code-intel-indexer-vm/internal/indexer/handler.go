@@ -13,10 +13,10 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	indexmanager "github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-indexer-vm/internal/index_manager"
-	queue "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/queue/client"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil"
+	indexmanager "github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-indexer-vm/internal/index_manager"
+	queue "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/queue/client"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil"
 )
 
 const uploadImage = "sourcegraph/src-cli:latest"

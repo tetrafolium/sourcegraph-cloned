@@ -8,8 +8,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/keegancsmith/sqlf"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
 )
 
 // dbSubscription describes an product subscription row in the product_subscriptions DB

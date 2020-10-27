@@ -1,7 +1,7 @@
 package resolvers
 
 import (
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
 )
 
 func campaignsApplyURL(n graphqlbackend.Namespace, c graphqlbackend.CampaignSpecResolver) string {

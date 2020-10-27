@@ -3,7 +3,7 @@ package registry
 import (
 	"strings"
 
-	"github.com/tetrafolium/sourcegraph/internal/registry"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/registry"
 )
 
 // FilterRegistryExtensions returns the subset of extensions that match the query. It does not

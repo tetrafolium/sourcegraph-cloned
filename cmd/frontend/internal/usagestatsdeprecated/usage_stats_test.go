@@ -10,7 +10,7 @@ import (
 
 	"github.com/gomodule/redigo/redis"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
 )
 
 func init() {

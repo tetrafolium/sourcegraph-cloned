@@ -9,9 +9,9 @@ import (
 
 	"github.com/graph-gophers/graphql-go"
 	"github.com/sourcegraph/jsonx"
-	"github.com/tetrafolium/sourcegraph/internal/actor"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
 )
 
 // Deprecated: The GraphQL type Configuration is deprecated.

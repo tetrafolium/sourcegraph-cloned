@@ -4,14 +4,14 @@ package mocks
 
 import (
 	"context"
-	client "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/queue/client"
-	store "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
+	client "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/queue/client"
+	store "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
 	"sync"
 )
 
 // MockClient is a mock implementation of the Client interface (from the
 // package
-// github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/queue/client)
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/queue/client)
 // used for unit testing.
 type MockClient struct {
 	// CompleteFunc is an instance of a mock function object controlling the

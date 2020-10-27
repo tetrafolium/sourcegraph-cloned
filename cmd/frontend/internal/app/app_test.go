@@ -1,6 +1,6 @@
 package app
 
-import "github.com/tetrafolium/sourcegraph/internal/txemail"
+import "github.com/tetrafolium/sourcegraph-cloned/internal/txemail"
 
 func init() {
 	txemail.DisableSilently()

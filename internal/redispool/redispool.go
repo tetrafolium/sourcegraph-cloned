@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/gomodule/redigo/redis"
-	"github.com/tetrafolium/sourcegraph/internal/env"
-	"github.com/tetrafolium/sourcegraph/internal/lazyregexp"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/lazyregexp"
 )
 
 var (

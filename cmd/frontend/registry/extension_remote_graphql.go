@@ -5,9 +5,9 @@ import (
 	"net/url"
 
 	"github.com/graph-gophers/graphql-go"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/app/ui/router"
-	"github.com/tetrafolium/sourcegraph/internal/registry"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/app/ui/router"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/registry"
 )
 
 // registryExtensionRemoteResolver implements the GraphQL type RegistryExtension with data from a

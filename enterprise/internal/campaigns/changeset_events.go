@@ -1,7 +1,7 @@
 package campaigns
 
 import (
-	cmpgn "github.com/tetrafolium/sourcegraph/internal/campaigns"
+	cmpgn "github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
 )
 
 // ChangesetEvents is a collection of changeset events

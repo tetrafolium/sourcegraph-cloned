@@ -9,10 +9,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/repos"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/campaigns"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/repos"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
 )
 
 func TestNextSync(t *testing.T) {

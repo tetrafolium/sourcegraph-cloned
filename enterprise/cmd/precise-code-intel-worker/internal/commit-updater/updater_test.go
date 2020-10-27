@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	commitsmocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/commits/mocks"
-	storemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store/mocks"
+	commitsmocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/commits/mocks"
+	storemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store/mocks"
 )
 
 func TestUpdater(t *testing.T) {

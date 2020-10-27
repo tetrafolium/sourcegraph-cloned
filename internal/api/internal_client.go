@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tetrafolium/sourcegraph/internal/conf/conftypes"
-	"github.com/tetrafolium/sourcegraph/internal/env"
-	"github.com/tetrafolium/sourcegraph/internal/jsonc"
-	"github.com/tetrafolium/sourcegraph/internal/txemail/txtypes"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf/conftypes"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/jsonc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/txemail/txtypes"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 	"golang.org/x/net/context/ctxhttp"
 )
 

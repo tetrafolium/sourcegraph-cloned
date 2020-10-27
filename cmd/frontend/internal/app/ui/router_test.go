@@ -10,12 +10,12 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/envvar"
-	uirouter "github.com/tetrafolium/sourcegraph/cmd/frontend/internal/app/ui/router"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/envvar"
+	uirouter "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/app/ui/router"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
 )
 
 func init() {

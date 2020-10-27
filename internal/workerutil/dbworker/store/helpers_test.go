@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/keegancsmith/sqlf"
-	"github.com/tetrafolium/sourcegraph/internal/db/basestore"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbtesting"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/basestore"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbtesting"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil"
 )
 
 type TestWorkRecord struct {

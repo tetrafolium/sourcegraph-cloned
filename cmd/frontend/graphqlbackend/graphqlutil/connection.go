@@ -1,6 +1,6 @@
 package graphqlutil
 
-import "github.com/tetrafolium/sourcegraph/internal/db"
+import "github.com/tetrafolium/sourcegraph-cloned/internal/db"
 
 // ConnectionArgs is the common set of arguments to GraphQL fields that return connections (lists).
 type ConnectionArgs struct {

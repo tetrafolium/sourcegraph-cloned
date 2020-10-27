@@ -5,7 +5,7 @@ import (
 
 	"github.com/RoaringBitmap/roaring"
 	"github.com/google/go-cmp/cmp"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
 )
 
 func TestPermsInclude(t *testing.T) {

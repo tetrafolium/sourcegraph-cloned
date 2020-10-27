@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/lib/pq"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbtesting"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbtesting"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
 )
 
 // registryExtensionNamesForTests is a list of test cases containing valid and invalid registry

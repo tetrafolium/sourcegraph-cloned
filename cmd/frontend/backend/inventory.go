@@ -10,12 +10,12 @@ import (
 
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/inventory"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/env"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/rcache"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/git"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/inventory"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/rcache"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
 )
 
 // Feature flag for enhanced (but much slower) language detection that uses file contents, not just

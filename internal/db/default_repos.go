@@ -7,8 +7,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
 )
 
 // defaultReposMaxAge is how long we cache the list of default repos. The list

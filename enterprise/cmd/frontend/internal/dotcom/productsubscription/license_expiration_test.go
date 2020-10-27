@@ -8,13 +8,13 @@ import (
 	"github.com/efritz/glock"
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/frontend/internal/licensing"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/license"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/slack"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/frontend/internal/licensing"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/license"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/slack"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 type fakeSlackClient struct {

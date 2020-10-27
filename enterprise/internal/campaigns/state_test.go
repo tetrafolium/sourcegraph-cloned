@@ -6,12 +6,12 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/tetrafolium/sourcegraph/internal/campaigns"
-	cmpgn "github.com/tetrafolium/sourcegraph/internal/campaigns"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/bitbucketserver"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/github"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/gitlab"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
+	cmpgn "github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/bitbucketserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/github"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/gitlab"
 )
 
 func TestComputeGithubCheckState(t *testing.T) {

@@ -12,17 +12,17 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/repos"
-	edb "github.com/tetrafolium/sourcegraph/enterprise/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/authz"
-	authzGitHub "github.com/tetrafolium/sourcegraph/internal/authz/github"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbtest"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	extsvcGitHub "github.com/tetrafolium/sourcegraph/internal/extsvc/github"
-	"github.com/tetrafolium/sourcegraph/internal/httptestutil"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/repos"
+	edb "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/authz"
+	authzGitHub "github.com/tetrafolium/sourcegraph-cloned/internal/authz/github"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbtest"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	extsvcGitHub "github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/github"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/httptestutil"
 )
 
 var updateRegex = flag.String("update", "", "Update testdata of tests matching the given regex")

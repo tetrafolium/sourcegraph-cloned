@@ -5,7 +5,7 @@ import (
 
 	"github.com/sourcegraph/campaignutils/overridable"
 	"github.com/sourcegraph/campaignutils/yaml"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 func NewCampaignSpecFromRaw(rawSpec string) (*CampaignSpec, error) {

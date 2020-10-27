@@ -11,11 +11,11 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/search"
-	searchbackend "github.com/tetrafolium/sourcegraph/internal/search/backend"
-	"github.com/tetrafolium/sourcegraph/internal/search/query"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search"
+	searchbackend "github.com/tetrafolium/sourcegraph-cloned/internal/search/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search/query"
 )
 
 func TestSearchRepositories(t *testing.T) {

@@ -6,12 +6,12 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	bundles "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client"
-	bundlemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client/mocks"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/types"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store/mocks"
-	storemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store/mocks"
+	bundles "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client"
+	bundlemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client/mocks"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/types"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store/mocks"
+	storemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store/mocks"
 )
 
 func TestHandleSameDumpCursor(t *testing.T) {

@@ -16,14 +16,14 @@ import (
 	"github.com/tidwall/gjson"
 	"github.com/xeipuuv/gojsonschema"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbutil"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/jsonc"
-	"github.com/tetrafolium/sourcegraph/internal/secret"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/jsonc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/secret"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 // An ExternalServicesStore stores external services and their configuration.

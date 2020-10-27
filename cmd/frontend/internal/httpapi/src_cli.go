@@ -7,7 +7,7 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/inconshreveable/log15"
-	srccli "github.com/tetrafolium/sourcegraph/internal/src-cli"
+	srccli "github.com/tetrafolium/sourcegraph-cloned/internal/src-cli"
 )
 
 var srcCliDownloadsURL = "https://github.com/sourcegraph/src-cli/releases/download"

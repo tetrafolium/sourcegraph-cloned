@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/internal/conf/conftypes"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf/conftypes"
 )
 
 func TestServiceConnections(t *testing.T) {

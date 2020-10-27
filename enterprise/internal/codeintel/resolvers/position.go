@@ -8,10 +8,10 @@ import (
 	"strings"
 
 	"github.com/sourcegraph/go-diff/diff"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	bundles "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/git"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	bundles "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
 )
 
 // PositionAdjuster translates a position within a git tree at a source commit into the

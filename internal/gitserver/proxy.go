@@ -5,8 +5,8 @@ import (
 	"net/http/httputil"
 
 	"github.com/neelance/parallel"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 )
 
 // DefaultReverseProxy is the default ReverseProxy. It uses the same transport and HTTP

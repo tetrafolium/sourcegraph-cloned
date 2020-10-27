@@ -13,10 +13,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/bitbucketcloud"
-	"github.com/tetrafolium/sourcegraph/internal/testutil"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/bitbucketcloud"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/testutil"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 func TestBitbucketCloudSource_ListRepos(t *testing.T) {

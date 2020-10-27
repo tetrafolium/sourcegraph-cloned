@@ -39,7 +39,7 @@ func maybePostgresProcFile() (string, error) {
 	for prefix, database := range databases {
 		if !isPostgresConfigured(prefix) {
 			// Set *PGHOST to default to 127.0.0.1, NOT localhost, as localhost does not correctly resolve in some environments
-			// (see https://github.com/sourcegraph/issues/issues/34 and https://github.com/tetrafolium/sourcegraph/issues/9129).
+			// (see https://github.com/sourcegraph/issues/issues/34 and https://github.com/tetrafolium/sourcegraph-cloned/issues/9129).
 			SetDefaultEnv(prefix+"PGHOST", "127.0.0.1")
 			SetDefaultEnv(prefix+"PGUSER", "postgres")
 			SetDefaultEnv(prefix+"PGDATABASE", database)

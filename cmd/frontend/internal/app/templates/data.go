@@ -21,6 +21,6 @@ func importPathToDir(importPath string) string {
 
 // Data is a virtual filesystem that contains template data used by Sourcegraph app.
 var Data = filter.Skip(
-	http.Dir(importPathToDir("github.com/tetrafolium/sourcegraph/cmd/frontend/internal/app/templates")),
+	http.Dir(importPathToDir("github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/app/templates")),
 	filter.FilesWithExtensions(".go"),
 )

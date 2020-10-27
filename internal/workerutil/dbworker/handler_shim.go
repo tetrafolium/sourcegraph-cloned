@@ -3,7 +3,7 @@ package dbworker
 import (
 	"context"
 
-	"github.com/tetrafolium/sourcegraph/internal/workerutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil"
 )
 
 // handlerShim converts a Handler into a workerutil.Handler.

@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/tetrafolium/sourcegraph/internal/actor"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/randstring"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/randstring"
 )
 
 func MakeRandomHardToGuessPassword() string {

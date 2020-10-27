@@ -8,10 +8,10 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
-	"github.com/tetrafolium/sourcegraph/internal/jsonc"
-	"github.com/tetrafolium/sourcegraph/internal/lazyregexp"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/jsonc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/lazyregexp"
 )
 
 // validateExtensionManifest validates a JSON extension manifest for syntax.

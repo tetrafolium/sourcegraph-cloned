@@ -7,9 +7,9 @@ import (
 
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/txemail"
-	"github.com/tetrafolium/sourcegraph/internal/txemail/txtypes"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/txemail"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/txemail/txtypes"
 )
 
 func canSendEmail(ctx context.Context) error {

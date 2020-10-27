@@ -4,12 +4,12 @@ import (
 	"net/http"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/internal/actor"
-	"github.com/tetrafolium/sourcegraph/internal/authz"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/authz"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
 )
 
 // AccessTokenAuthMiddleware authenticates the user based on the

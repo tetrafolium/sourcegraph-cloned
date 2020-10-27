@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/keegancsmith/sqlf"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/serialization"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/sqlite/store"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/serialization"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/sqlite/store"
 )
 
 // Migrate v1: Create a schema_version table that will explicitly declare a bundle's format.

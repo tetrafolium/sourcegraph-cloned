@@ -15,14 +15,14 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/log"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/gituri"
-	"github.com/tetrafolium/sourcegraph/internal/search"
-	"github.com/tetrafolium/sourcegraph/internal/search/query"
-	"github.com/tetrafolium/sourcegraph/internal/symbols/protocol"
-	"github.com/tetrafolium/sourcegraph/internal/trace"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gituri"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search/query"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/symbols/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 )
 
 type indexedRequestType string
@@ -175,7 +175,7 @@ func newIndexedSearchRequest(ctx context.Context, args *search.TextParameters, t
 	// We do not yet support searching non-HEAD for fileRequest (structural
 	// search).
 	if typ == fileRequest && indexed.NotHEADOnlySearch {
-		return nil, errors.New("structural search only supports searching the default branch https://github.com/tetrafolium/sourcegraph/issues/11906")
+		return nil, errors.New("structural search only supports searching the default branch https://github.com/tetrafolium/sourcegraph-cloned/issues/11906")
 	}
 
 	return &indexedSearchRequest{

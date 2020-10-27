@@ -10,12 +10,12 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/auth/providers"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/gitlab"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/auth/providers"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/gitlab"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 	"golang.org/x/oauth2"
 )
 

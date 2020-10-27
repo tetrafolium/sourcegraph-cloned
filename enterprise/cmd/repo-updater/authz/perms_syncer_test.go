@@ -9,13 +9,13 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/pkg/errors"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/repos"
-	edb "github.com/tetrafolium/sourcegraph/enterprise/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/authz"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/ratelimit"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/repos"
+	edb "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/authz"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/ratelimit"
 )
 
 func TestPermsSyncer_ScheduleUsers(t *testing.T) {

@@ -3,8 +3,8 @@ package resetter
 import (
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil/dbworker"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil/dbworker"
 )
 
 func NewIndexResetter(

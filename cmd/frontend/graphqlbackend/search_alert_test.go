@@ -9,11 +9,11 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/search"
-	"github.com/tetrafolium/sourcegraph/internal/search/query"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search/query"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 func TestSearchPatternForSuggestion(t *testing.T) {

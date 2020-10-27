@@ -7,11 +7,11 @@ import (
 
 	"github.com/graph-gophers/graphql-go"
 	"github.com/graph-gophers/graphql-go/relay"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend/graphqlutil"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/frontend/internal/licensing"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/license"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend/graphqlutil"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/frontend/internal/licensing"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/license"
 )
 
 func init() {

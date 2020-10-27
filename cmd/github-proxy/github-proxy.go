@@ -21,11 +21,11 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/tetrafolium/sourcegraph/internal/debugserver"
-	"github.com/tetrafolium/sourcegraph/internal/env"
-	"github.com/tetrafolium/sourcegraph/internal/logging"
-	"github.com/tetrafolium/sourcegraph/internal/trace"
-	"github.com/tetrafolium/sourcegraph/internal/tracer"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/debugserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/logging"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/tracer"
 )
 
 var logRequests, _ = strconv.ParseBool(env.Get("LOG_REQUESTS", "", "log HTTP requests"))

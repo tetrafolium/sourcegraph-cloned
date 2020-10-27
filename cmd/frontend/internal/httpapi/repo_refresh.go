@@ -5,10 +5,10 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/handlerutil"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/repoupdater"
-	"github.com/tetrafolium/sourcegraph/internal/repoupdater/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/handlerutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/repoupdater"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/repoupdater/protocol"
 )
 
 func serveRepoRefresh(w http.ResponseWriter, r *http.Request) error {

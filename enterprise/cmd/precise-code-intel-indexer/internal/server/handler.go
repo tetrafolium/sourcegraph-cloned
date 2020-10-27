@@ -6,7 +6,7 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/queue/types"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/queue/types"
 )
 
 func (s *Server) setupRoutes(router *mux.Router) {

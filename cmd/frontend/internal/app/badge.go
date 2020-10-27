@@ -8,8 +8,8 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/gorilla/mux"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/internal/routevar"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/routevar"
 )
 
 // TODO(slimsag): once https://github.com/badges/shields/pull/828 is merged,

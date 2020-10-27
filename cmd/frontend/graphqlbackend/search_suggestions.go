@@ -13,12 +13,12 @@ import (
 	"github.com/neelance/parallel"
 	"github.com/pkg/errors"
 	"github.com/sourcegraph/go-lsp"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
-	"github.com/tetrafolium/sourcegraph/internal/search"
-	"github.com/tetrafolium/sourcegraph/internal/search/query"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search/query"
 )
 
 const maxSearchSuggestions = 100

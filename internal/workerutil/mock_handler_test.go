@@ -8,7 +8,7 @@ import (
 )
 
 // MockHandler is a mock implementation of the Handler interface (from the
-// package github.com/tetrafolium/sourcegraph/internal/workerutil) used for
+// package github.com/tetrafolium/sourcegraph-cloned/internal/workerutil) used for
 // unit testing.
 type MockHandler struct {
 	// HandleFunc is an instance of a mock function object controlling the

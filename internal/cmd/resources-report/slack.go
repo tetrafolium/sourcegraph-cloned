@@ -31,7 +31,7 @@ func newSlackButtonRun(runID string) slackBlock {
 			Type: "plain_text",
 			Text: "View run",
 		},
-		"url": fmt.Sprintf("https://github.com/tetrafolium/sourcegraph/actions/runs/%s", runID),
+		"url": fmt.Sprintf("https://github.com/tetrafolium/sourcegraph-cloned/actions/runs/%s", runID),
 	}
 }
 

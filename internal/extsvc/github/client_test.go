@@ -17,9 +17,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/httptestutil"
-	"github.com/tetrafolium/sourcegraph/internal/rcache"
-	"github.com/tetrafolium/sourcegraph/internal/testutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/httptestutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/rcache"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/testutil"
 )
 
 func TestUnmarshal(t *testing.T) {

@@ -13,8 +13,8 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
 )
 
 var (

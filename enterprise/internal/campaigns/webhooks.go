@@ -15,13 +15,13 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/repos"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/campaigns"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/bitbucketserver"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/github"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/repos"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/bitbucketserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/github"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 type Webhook struct {

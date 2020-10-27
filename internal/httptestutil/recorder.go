@@ -8,7 +8,7 @@ import (
 
 	"github.com/dnaeon/go-vcr/cassette"
 	"github.com/dnaeon/go-vcr/recorder"
-	"github.com/tetrafolium/sourcegraph/internal/httpcli"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/httpcli"
 )
 
 // NewRecorder returns an HTTP interaction recorder with the given record mode and filters. It strips away the HTTP Authorization and Set-Cookie headers.

@@ -15,13 +15,13 @@ import (
 	"github.com/xeonx/timeago"
 
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
-	"github.com/tetrafolium/sourcegraph/internal/search"
-	"github.com/tetrafolium/sourcegraph/internal/search/query"
-	"github.com/tetrafolium/sourcegraph/internal/trace"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/git"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search/query"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
 )
 
 // CommitSearchResultResolver is a resolver for the GraphQL type `CommitSearchResult`

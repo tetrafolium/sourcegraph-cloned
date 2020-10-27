@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/mattn/go-sqlite3"
-	"github.com/tetrafolium/sourcegraph/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
 )
 
 var libSqlite3Pcre = env.Get("LIBSQLITE3_PCRE", "", "path to the libsqlite3-pcre library")

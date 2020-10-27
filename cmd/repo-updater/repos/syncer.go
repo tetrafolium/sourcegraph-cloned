@@ -15,10 +15,10 @@ import (
 	otlog "github.com/opentracing/opentracing-go/log"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/trace"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil"
-	dbworkerstore "github.com/tetrafolium/sourcegraph/internal/workerutil/dbworker/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil"
+	dbworkerstore "github.com/tetrafolium/sourcegraph-cloned/internal/workerutil/dbworker/store"
 )
 
 // A Syncer periodically synchronizes available repositories from all its given Sources

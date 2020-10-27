@@ -7,14 +7,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/graph-gophers/graphql-go"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	gql "github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend/graphqlutil"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	resolvermocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/resolvers/mocks"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	gql "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend/graphqlutil"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	resolvermocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/resolvers/mocks"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
 )
 
 func TestDeleteLSIFUpload(t *testing.T) {

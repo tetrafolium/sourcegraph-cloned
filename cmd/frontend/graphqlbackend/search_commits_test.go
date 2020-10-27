@@ -12,11 +12,11 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	//"github.com/google/go-cmp/cmp"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/search"
-	"github.com/tetrafolium/sourcegraph/internal/search/query"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/git"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search/query"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
 )
 
 func TestSearchCommitsInRepo(t *testing.T) {
@@ -140,7 +140,7 @@ func TestHighlightMatches(t *testing.T) {
 		want *highlightedString
 	}{
 		{
-			// https://github.com/tetrafolium/sourcegraph/issues/4512
+			// https://github.com/tetrafolium/sourcegraph-cloned/issues/4512
 			name: "match at end",
 			args: args{
 				pattern: regexp.MustCompile(`白`),
@@ -158,7 +158,7 @@ func TestHighlightMatches(t *testing.T) {
 			},
 		},
 		{
-			// https://github.com/tetrafolium/sourcegraph/issues/4512
+			// https://github.com/tetrafolium/sourcegraph-cloned/issues/4512
 			name: "two character match in middle",
 			args: args{
 				pattern: regexp.MustCompile(`行空`),
@@ -176,7 +176,7 @@ func TestHighlightMatches(t *testing.T) {
 			},
 		},
 		{
-			// https://github.com/tetrafolium/sourcegraph/issues/4512
+			// https://github.com/tetrafolium/sourcegraph-cloned/issues/4512
 			name: "match at beginning",
 			args: args{
 				pattern: regexp.MustCompile(`加`),
@@ -245,7 +245,7 @@ func TestHighlightMatches(t *testing.T) {
 			},
 		},
 
-		// https://github.com/tetrafolium/sourcegraph/issues/4791
+		// https://github.com/tetrafolium/sourcegraph-cloned/issues/4791
 		{
 			name: "unicode search that would be broken by tolower",
 			args: args{

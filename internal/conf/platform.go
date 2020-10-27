@@ -4,7 +4,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 // PlatformConfiguration contains site configuration for the Sourcegraph platform.

@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
 )
 
 // IndexesResolver wraps store.GetIndexes so that the underlying function can be

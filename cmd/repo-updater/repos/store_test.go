@@ -15,17 +15,17 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/repos"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/awscodecommit"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/bitbucketserver"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/github"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/gitlab"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/gitolite"
-	"github.com/tetrafolium/sourcegraph/internal/ratelimit"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/repos"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/awscodecommit"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/bitbucketserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/github"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/gitlab"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/gitolite"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/ratelimit"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 func testStoreListExternalServicesByRepos(t *testing.T, store repos.Store) func(*testing.T) {

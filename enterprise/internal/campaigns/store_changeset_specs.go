@@ -8,8 +8,8 @@ import (
 	"github.com/dineshappavoo/basex"
 	"github.com/keegancsmith/sqlf"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/campaigns"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbutil"
 )
 
 // changesetSpecInsertColumns is the list of changeset_specs columns that are

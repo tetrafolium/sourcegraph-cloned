@@ -6,7 +6,7 @@ import (
 
 	"github.com/graph-gophers/graphql-go"
 	"github.com/graph-gophers/graphql-go/relay"
-	"github.com/tetrafolium/sourcegraph/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
 )
 
 var builtinExtensions = map[string]bool{

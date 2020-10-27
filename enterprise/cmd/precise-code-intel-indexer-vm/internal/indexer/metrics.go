@@ -1,8 +1,8 @@
 package indexer
 
 import (
-	"github.com/tetrafolium/sourcegraph/internal/metrics"
-	"github.com/tetrafolium/sourcegraph/internal/observation"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/metrics"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/observation"
 )
 
 type IndexerMetrics struct {

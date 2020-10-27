@@ -9,9 +9,9 @@ import (
 	"github.com/inconshreveable/log15"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/tetrafolium/sourcegraph/internal/actor"
-	tracepkg "github.com/tetrafolium/sourcegraph/internal/trace"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
+	tracepkg "github.com/tetrafolium/sourcegraph-cloned/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 )
 
 var metricLabels = []string{"method", "success"}

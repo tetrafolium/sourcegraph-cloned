@@ -17,13 +17,13 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
-	sgtrace "github.com/tetrafolium/sourcegraph/internal/trace"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
+	sgtrace "github.com/tetrafolium/sourcegraph-cloned/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 )
 
 var graphqlFieldHistogram = prometheus.NewHistogramVec(prometheus.HistogramOpts{
@@ -275,7 +275,7 @@ var allowedPrometheusFieldNames = map[[2]string]struct{}{
 // prometheusFieldName reduces the cardinality of GraphQL field names to make it suitable
 // for use in a Prometheus metric. We only track the ones most valuable to us.
 //
-// See https://github.com/tetrafolium/sourcegraph/issues/9895
+// See https://github.com/tetrafolium/sourcegraph-cloned/issues/9895
 func prometheusFieldName(typeName, fieldName string) string {
 	if _, ok := allowedPrometheusFieldNames[[2]string{typeName, fieldName}]; ok {
 		return fieldName

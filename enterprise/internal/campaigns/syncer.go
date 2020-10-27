@@ -12,11 +12,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/repos"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/campaigns"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/httpcli"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/repos"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/httpcli"
 )
 
 // SyncRegistry manages a ChangesetSyncer per code host
@@ -415,7 +415,7 @@ func NextSync(clock func() time.Time, h campaigns.ChangesetSyncData) time.Time {
 	var lastChange time.Time
 	// When we perform a sync, event timestamps are all updated even if nothing has changed.
 	// We should fall back to h.ExternalUpdated if the diff is small
-	// TODO: This is a workaround while we try to implement syncing without always updating events. See: https://github.com/tetrafolium/sourcegraph/pull/8771
+	// TODO: This is a workaround while we try to implement syncing without always updating events. See: https://github.com/tetrafolium/sourcegraph-cloned/pull/8771
 	// Once the above issue is fixed we can simply use maxTime(h.ExternalUpdatedAt, h.LatestEvent)
 	if diff := h.LatestEvent.Sub(lastSync); !h.LatestEvent.IsZero() && absDuration(diff) < minSyncDelay {
 		lastChange = h.ExternalUpdatedAt

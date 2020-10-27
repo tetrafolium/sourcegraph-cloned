@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	srccli "github.com/tetrafolium/sourcegraph/internal/src-cli"
+	srccli "github.com/tetrafolium/sourcegraph-cloned/internal/src-cli"
 )
 
 func main() {

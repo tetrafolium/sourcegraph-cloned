@@ -3,7 +3,7 @@ package git
 import (
 	"os"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
 )
 
 // ModeSubmodule is an os.FileMode mask indicating that the file is a Git submodule.

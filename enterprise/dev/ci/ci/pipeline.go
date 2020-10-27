@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	bk "github.com/tetrafolium/sourcegraph/internal/buildkite"
+	bk "github.com/tetrafolium/sourcegraph-cloned/internal/buildkite"
 )
 
 // GeneratePipeline is the main pipeline generation function. It defines the build pipeline for each of the

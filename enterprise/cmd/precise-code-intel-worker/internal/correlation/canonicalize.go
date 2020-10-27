@@ -3,8 +3,8 @@ package correlation
 import (
 	"sort"
 
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-worker/internal/correlation/datastructures"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-worker/internal/correlation/lsif"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-worker/internal/correlation/datastructures"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-worker/internal/correlation/lsif"
 )
 
 // canonicalize deduplicates data in the raw correlation state and collapses range,

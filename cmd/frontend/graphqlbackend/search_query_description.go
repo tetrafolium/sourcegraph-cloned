@@ -1,6 +1,6 @@
 package graphqlbackend
 
-import "github.com/tetrafolium/sourcegraph/internal/search/query"
+import "github.com/tetrafolium/sourcegraph-cloned/internal/search/query"
 
 // searchQueryDescription is a type for the SearchQueryDescription resolver used
 // by SearchAlert.

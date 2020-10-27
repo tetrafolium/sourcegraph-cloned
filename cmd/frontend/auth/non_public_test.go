@@ -7,13 +7,13 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/auth"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/auth"
 	// Import for side effects so that the UI router gets created and is accessible in the
 	// ../app/ui/router package's Router var.
-	_ "github.com/tetrafolium/sourcegraph/cmd/frontend/internal/app/ui"
-	"github.com/tetrafolium/sourcegraph/internal/actor"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/schema"
+	_ "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/app/ui"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 func TestAllowAnonymousRequest(t *testing.T) {

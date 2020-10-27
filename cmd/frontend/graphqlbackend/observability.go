@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
 )
 
 var testMetricWarning = prometheus.NewGaugeVec(prometheus.GaugeOpts{

@@ -3,10 +3,10 @@ package resolvers
 import (
 	"context"
 
-	gql "github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	codeintelapi "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/api"
-	bundles "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
+	gql "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	codeintelapi "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/api"
+	bundles "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
 )
 
 // Resolver is the main interface to code intel-related operations exposed to the GraphQL API.

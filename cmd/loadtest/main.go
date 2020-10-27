@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
 )
 
 var (

@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	"github.com/keegancsmith/sqlf"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
 )
 
 // dbPublisher is a publisher of extensions to the registry.

@@ -14,15 +14,15 @@ import (
 
 	"github.com/opentracing-contrib/go-stdlib/nethttp"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/cmd/searcher/protocol"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/endpoint"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/metrics"
-	"github.com/tetrafolium/sourcegraph/internal/search"
-	"github.com/tetrafolium/sourcegraph/internal/trace"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/searcher/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/endpoint"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/metrics"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 )
 
 var (

@@ -6,12 +6,12 @@ import (
 	"github.com/graph-gophers/graphql-go"
 	"github.com/graph-gophers/graphql-go/relay"
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/siteid"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/actor"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
-	"github.com/tetrafolium/sourcegraph/internal/hubspot/hubspotutil"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/siteid"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/hubspot/hubspotutil"
 )
 
 type surveyResponseResolver struct {

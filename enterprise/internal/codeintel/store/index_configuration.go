@@ -5,7 +5,7 @@ import (
 	"database/sql"
 
 	"github.com/keegancsmith/sqlf"
-	"github.com/tetrafolium/sourcegraph/internal/db/basestore"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/basestore"
 )
 
 // IndexConfiguration stores the index configuration for a repository.

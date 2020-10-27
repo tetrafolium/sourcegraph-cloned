@@ -1,6 +1,6 @@
 package graphqlbackend
 
-import "github.com/tetrafolium/sourcegraph/cmd/frontend/auth/providers"
+import "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/auth/providers"
 
 // authProviderResolver resolves an auth provider.
 type authProviderResolver struct {

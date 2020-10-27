@@ -11,12 +11,12 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/actor"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/env"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
-	"github.com/tetrafolium/sourcegraph/internal/redispool"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/redispool"
 
 	"github.com/inconshreveable/log15"
 
@@ -122,7 +122,7 @@ func setSessionSecureOptions(opts *sessions.Options, secure bool) {
 	// 	* HTTPS: set "SameSite=None" in session cookie - users can sign in, and will be able to use the
 	// 			 browser extension.
 	//
-	// See https://github.com/tetrafolium/sourcegraph/issues/6167 for more information.
+	// See https://github.com/tetrafolium/sourcegraph-cloned/issues/6167 for more information.
 	opts.SameSite = http.SameSiteLaxMode
 	if secure {
 		opts.SameSite = http.SameSiteNoneMode

@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/tetrafolium/sourcegraph/internal/conf/conftypes"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf/conftypes"
 )
 
 type Validator func(Unified) Problems
@@ -37,7 +37,7 @@ func validateCustom(cfg Unified) (problems Problems) {
 	}
 
 	// Auth provider config validation is contributed by the
-	// github.com/tetrafolium/sourcegraph/cmd/frontend/internal/auth/... packages (using
+	// github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/auth/... packages (using
 	// ContributeValidator).
 
 	{
@@ -52,7 +52,7 @@ func validateCustom(cfg Unified) (problems Problems) {
 	}
 
 	// Prevent usage of non-root externalURLs until we add their support:
-	// https://github.com/tetrafolium/sourcegraph/issues/7884
+	// https://github.com/tetrafolium/sourcegraph-cloned/issues/7884
 	if cfg.ExternalURL != "" {
 		eURL, err := url.Parse(cfg.ExternalURL)
 		if err != nil {

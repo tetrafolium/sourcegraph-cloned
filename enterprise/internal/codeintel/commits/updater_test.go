@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	storemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store/mocks"
+	storemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store/mocks"
 )
 
 func TestUpdate(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 
 	"github.com/Masterminds/semver"
 	"github.com/keegancsmith/sqlf"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbutil"
 )
 
 // UpgradeError is returned by UpdateServiceVersion when it faces an
@@ -84,7 +84,7 @@ func IsValidUpgrade(previous, latest *semver.Version) bool {
 	case previous == nil || latest == nil:
 		return true
 	case previous.Major() == 0 && previous.Minor() == 0 && previous.Patch() == 0:
-		// https://github.com/tetrafolium/sourcegraph/issues/11666
+		// https://github.com/tetrafolium/sourcegraph-cloned/issues/11666
 		//
 		// TODO(slimsag): Remove this switch case Oct, 1st 2020
 		return true

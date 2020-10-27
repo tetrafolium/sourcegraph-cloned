@@ -1,6 +1,6 @@
 package client
 
-import clienttypes "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client_types"
+import clienttypes "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client_types"
 
 type Location = clienttypes.Location
 type Range = clienttypes.Range

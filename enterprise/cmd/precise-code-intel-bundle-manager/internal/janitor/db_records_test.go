@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	lsifstoremocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/lsifstore/mocks"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
-	storemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store/mocks"
-	"github.com/tetrafolium/sourcegraph/internal/metrics"
+	lsifstoremocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/lsifstore/mocks"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
+	storemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store/mocks"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/metrics"
 )
 
 func TestHardDeleteDeletedRecords(t *testing.T) {

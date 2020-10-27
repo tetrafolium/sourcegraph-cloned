@@ -5,7 +5,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
 )
 
 func NormalizeRepo(input api.RepoName) api.RepoName {

@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 // diff returns names of the Go fields that have different values between the

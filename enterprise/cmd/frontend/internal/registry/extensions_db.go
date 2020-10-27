@@ -10,14 +10,14 @@ import (
 	"github.com/google/uuid"
 	"github.com/keegancsmith/sqlf"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/registry"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/registry"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
 )
 
 // dbExtension describes an extension in the extension registry.
 //
-// It is the internal form of github.com/tetrafolium/sourcegraph/internal/registry.Extension (which is
+// It is the internal form of github.com/tetrafolium/sourcegraph-cloned/internal/registry.Extension (which is
 // the external API type). These types should generally be kept in sync, but registry.Extension
 // updates require backcompat.
 type dbExtension struct {
@@ -158,7 +158,7 @@ func (s dbExtensions) GetByExtensionID(ctx context.Context, extensionID string) 
 
 	// TODO(sqs): prevent the creation of an org with the same name as a user so that there is no
 	// ambiguity as to whether the publisher refers to a user or org by the given name
-	// (https://github.com/tetrafolium/sourcegraph/issues/12068).
+	// (https://github.com/tetrafolium/sourcegraph-cloned/issues/12068).
 	parts := strings.SplitN(extensionID, "/", 2)
 	if len(parts) < 2 {
 		return nil, extensionNotFoundError{[]interface{}{fmt.Sprintf("extensionID %q", extensionID)}}

@@ -4,12 +4,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/repoupdater"
-	"github.com/tetrafolium/sourcegraph/internal/repoupdater/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/repoupdater"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/repoupdater/protocol"
 )
 
 func TestRepoRefresh(t *testing.T) {

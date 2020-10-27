@@ -1,6 +1,6 @@
 package graphqlbackend
 
-import "github.com/tetrafolium/sourcegraph/cmd/frontend/types"
+import "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
 
 type phabricatorRepoResolver struct {
 	*types.PhabricatorRepo

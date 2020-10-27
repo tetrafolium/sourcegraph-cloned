@@ -8,8 +8,8 @@ import (
 
 	"github.com/gomodule/redigo/redis"
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/redispool"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/redispool"
 )
 
 // dataVersion is used for releases that change type structure for

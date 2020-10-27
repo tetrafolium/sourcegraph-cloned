@@ -15,12 +15,12 @@ import (
 	"time"
 
 	"github.com/coreos/go-oidc"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/auth"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/auth/providers"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/external/session"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/frontend/internal/licensing"
-	"github.com/tetrafolium/sourcegraph/internal/actor"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/auth"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/auth/providers"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/external/session"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/frontend/internal/licensing"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 // providerJSON is the JSON structure the OIDC provider returns at its discovery endpoing

@@ -10,8 +10,8 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tetrafolium/sourcegraph/internal/metrics"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/metrics"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 )
 
 // HandlerMetrics encapsulates the Prometheus metrics of an http.Handler.

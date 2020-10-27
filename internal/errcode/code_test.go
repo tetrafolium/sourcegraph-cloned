@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
 )
 
 func TestHTTP(t *testing.T) {

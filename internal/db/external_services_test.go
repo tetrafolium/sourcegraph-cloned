@@ -9,11 +9,11 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/keegancsmith/sqlf"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbtesting"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbtesting"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
 )
 
 func TestExternalServicesListOptions_sqlConditions(t *testing.T) {

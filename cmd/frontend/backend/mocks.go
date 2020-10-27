@@ -3,10 +3,10 @@ package backend
 import (
 	"context"
 
-	"github.com/tetrafolium/sourcegraph/internal/actor"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/git"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
 )
 
 var Mocks MockServices

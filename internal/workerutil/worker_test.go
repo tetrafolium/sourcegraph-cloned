@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/efritz/glock"
-	"github.com/tetrafolium/sourcegraph/internal/observation"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/observation"
 )
 
 type TestRecord struct {

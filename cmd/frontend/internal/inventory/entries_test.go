@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/util"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/util"
 )
 
 func TestContext_Entries(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	migrations "github.com/tetrafolium/sourcegraph/migrations/codeintel"
+	migrations "github.com/tetrafolium/sourcegraph-cloned/migrations/codeintel"
 )
 
 const FirstMigration = 1000000000
@@ -48,6 +48,6 @@ func TestNeedsGenerate(t *testing.T) {
 	sort.Strings(want)
 	sort.Strings(got)
 	if !reflect.DeepEqual(got, want) {
-		t.Fatal("bindata out of date. Please run:\n  go generate github.com/tetrafolium/sourcegraph/migrations/...")
+		t.Fatal("bindata out of date. Please run:\n  go generate github.com/tetrafolium/sourcegraph-cloned/migrations/...")
 	}
 }

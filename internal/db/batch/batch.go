@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbutil"
 )
 
 // BatchInserter allows for bulk updates to a single Postgres table.

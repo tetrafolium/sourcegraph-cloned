@@ -5,11 +5,11 @@ import (
 	"math"
 	"regexp"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/search"
-	"github.com/tetrafolium/sourcegraph/internal/search/query"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search/query"
 )
 
 var mockSearchRepositories func(args *search.TextParameters) ([]SearchResultResolver, *searchResultsCommon, error)
@@ -105,7 +105,7 @@ func matchRepos(pattern *regexp.Regexp, resolved []*search.RepositoryRevisions) 
 
 		   goos: darwin
 		   goarch: amd64
-		   pkg: github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend
+		   pkg: github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend
 		   BenchmarkSearchRepositories       	      13	 132088878 ns/op
 		   BenchmarkSearchRepositories-2     	      16	  69968357 ns/op
 		   BenchmarkSearchRepositories-3     	      24	  48294832 ns/op

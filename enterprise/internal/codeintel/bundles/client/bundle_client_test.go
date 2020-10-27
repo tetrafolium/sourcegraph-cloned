@@ -8,12 +8,12 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/database"
-	databasemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/database/mocks"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence"
-	persistencemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/mocks"
-	postgresreader "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/postgres"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/types"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/database"
+	databasemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/database/mocks"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence"
+	persistencemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/mocks"
+	postgresreader "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/postgres"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/types"
 )
 
 func TestExists(t *testing.T) {

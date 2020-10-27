@@ -3,10 +3,10 @@ package server
 import (
 	"database/sql"
 
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/cache"
-	"github.com/tetrafolium/sourcegraph/internal/goroutine"
-	"github.com/tetrafolium/sourcegraph/internal/httpserver"
-	"github.com/tetrafolium/sourcegraph/internal/observation"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/cache"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/goroutine"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/httpserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/observation"
 )
 
 const Port = 3187

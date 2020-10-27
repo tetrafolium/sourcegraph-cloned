@@ -8,12 +8,12 @@ import (
 	"github.com/goware/urlx"
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/phabricator"
-	"github.com/tetrafolium/sourcegraph/internal/httpcli"
-	"github.com/tetrafolium/sourcegraph/internal/jsonc"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/phabricator"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/httpcli"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/jsonc"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 // A PhabricatorSource yields repositories from a single Phabricator connection configured

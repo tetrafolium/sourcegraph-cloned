@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/keegancsmith/sqlf"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/serialization"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/sqlite/store"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/serialization"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/sqlite/store"
 )
 
 // Migrate v3: Rename the resultChunks table to result_chunks.

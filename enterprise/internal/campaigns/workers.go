@@ -9,13 +9,13 @@ import (
 	"github.com/keegancsmith/sqlf"
 	"github.com/opentracing/opentracing-go"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/repos"
-	"github.com/tetrafolium/sourcegraph/internal/metrics"
-	"github.com/tetrafolium/sourcegraph/internal/observation"
-	"github.com/tetrafolium/sourcegraph/internal/trace"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil/dbworker"
-	dbworkerstore "github.com/tetrafolium/sourcegraph/internal/workerutil/dbworker/store"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/repos"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/metrics"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/observation"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil/dbworker"
+	dbworkerstore "github.com/tetrafolium/sourcegraph-cloned/internal/workerutil/dbworker/store"
 )
 
 // RunWorkers starts a dbworker.NewWorker that fetches enqueued changesets

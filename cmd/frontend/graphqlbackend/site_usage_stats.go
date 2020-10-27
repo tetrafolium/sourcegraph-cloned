@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/usagestatsdeprecated"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/usagestatsdeprecated"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
 )
 
 func (r *siteResolver) UsageStatistics(ctx context.Context, args *struct {

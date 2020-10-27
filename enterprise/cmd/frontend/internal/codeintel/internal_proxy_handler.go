@@ -13,8 +13,8 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/envvar"
-	"github.com/tetrafolium/sourcegraph/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/envvar"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
 )
 
 var indexerURL = env.Get("PRECISE_CODE_INTEL_INDEX_MANAGER_URL", "", "HTTP address for the internal precise-code-intel-indexer-manager.")

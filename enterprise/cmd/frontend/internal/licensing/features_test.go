@@ -3,7 +3,7 @@ package licensing
 import (
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/license"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/license"
 )
 
 func TestCheckFeature(t *testing.T) {

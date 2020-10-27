@@ -4,14 +4,14 @@ package mocks
 
 import (
 	"context"
-	persistence "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence"
-	types "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/types"
+	persistence "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence"
+	types "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/types"
 	"sync"
 )
 
 // MockStore is a mock implementation of the Store interface (from the
 // package
-// github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence)
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence)
 // used for unit testing.
 type MockStore struct {
 	// CloseFunc is an instance of a mock function object controlling the

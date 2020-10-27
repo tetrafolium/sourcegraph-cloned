@@ -5,7 +5,7 @@ package main
 import (
 	"os"
 
-	"github.com/tetrafolium/sourcegraph/enterprise/dev/ci/ci"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/dev/ci/ci"
 )
 
 func main() {

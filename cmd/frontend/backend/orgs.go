@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
 )
 
 var ErrNotAuthenticated = errors.New("not authenticated")

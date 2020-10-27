@@ -6,13 +6,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/repoupdater"
-	"github.com/tetrafolium/sourcegraph/internal/repoupdater/protocol"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/git"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/repoupdater"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/repoupdater/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
 )
 
 func TestRepository(t *testing.T) {

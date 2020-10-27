@@ -3,8 +3,8 @@ package correlation
 import (
 	"context"
 
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-worker/internal/correlation/datastructures"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-worker/internal/existence"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-worker/internal/correlation/datastructures"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-worker/internal/existence"
 )
 
 // prune removes references to documents in the given correlation state that do not exist in

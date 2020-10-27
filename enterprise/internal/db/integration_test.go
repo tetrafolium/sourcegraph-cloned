@@ -4,7 +4,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/internal/db/dbtest"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbtest"
 )
 
 var dsn = flag.String("dsn", "", "Database connection string to use in integration tests")

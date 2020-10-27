@@ -6,7 +6,7 @@ import (
 
 	"github.com/Masterminds/semver"
 	"github.com/google/go-cmp/cmp"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbtesting"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbtesting"
 )
 
 func init() {
@@ -128,7 +128,7 @@ func TestIsValidUpgrade(t *testing.T) {
 		latest:   "v4.1.3",
 		want:     true,
 	}, {
-		// https://github.com/tetrafolium/sourcegraph/issues/11666
+		// https://github.com/tetrafolium/sourcegraph-cloned/issues/11666
 		name:     "issue 11666",
 		previous: "v0.0.0+dev",
 		latest:   "v3.17.1",

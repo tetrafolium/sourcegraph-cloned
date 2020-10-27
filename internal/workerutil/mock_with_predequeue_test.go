@@ -9,7 +9,7 @@ import (
 
 // MockWithPreDequeue is a mock implementation of the WithPreDequeue
 // interface (from the package
-// github.com/tetrafolium/sourcegraph/internal/workerutil) used for unit
+// github.com/tetrafolium/sourcegraph-cloned/internal/workerutil) used for unit
 // testing.
 type MockWithPreDequeue struct {
 	// PreDequeueFunc is an instance of a mock function object controlling

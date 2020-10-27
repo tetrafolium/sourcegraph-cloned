@@ -6,7 +6,7 @@ import (
 	"net/http/httputil"
 	"strconv"
 
-	"github.com/tetrafolium/sourcegraph/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
 )
 
 var httpTrace, _ = strconv.ParseBool(env.Get("HTTP_TRACE", "false", "dump HTTP requests (including body) to stderr"))

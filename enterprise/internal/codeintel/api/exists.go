@@ -6,9 +6,9 @@ import (
 
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	bundles "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/gitserver"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
+	bundles "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
 )
 
 // NumAncestors is the number of ancestors to query from gitserver when trying to find the closest

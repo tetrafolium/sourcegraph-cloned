@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/stripe/stripe-go"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
 )
 
 // productSubscriptionEvent implements the GraphQL type ProductSubscriptionEvent.

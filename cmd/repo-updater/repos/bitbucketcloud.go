@@ -8,13 +8,13 @@ import (
 
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/conf/reposource"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/bitbucketcloud"
-	"github.com/tetrafolium/sourcegraph/internal/httpcli"
-	"github.com/tetrafolium/sourcegraph/internal/jsonc"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf/reposource"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/bitbucketcloud"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/httpcli"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/jsonc"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 // A BitbucketCloudSource yields repositories from a single BitbucketCloud connection configured

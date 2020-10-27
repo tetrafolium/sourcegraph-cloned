@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/gitlab"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/gitlab"
 )
 
 // EventCommon contains fields that are common to all webhook event types.

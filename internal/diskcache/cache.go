@@ -15,7 +15,7 @@ import (
 
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 )
 
 // Store is an on disk cache, with items cached via calls to Open.

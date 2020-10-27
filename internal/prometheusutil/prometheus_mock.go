@@ -11,7 +11,7 @@ import (
 
 // MockPrometheusQuerier is a mock implementation of the PrometheusQuerier
 // interface (from the package
-// github.com/tetrafolium/sourcegraph/internal/prometheusutil) used for unit
+// github.com/tetrafolium/sourcegraph-cloned/internal/prometheusutil) used for unit
 // testing.
 type MockPrometheusQuerier struct {
 	// QueryRangeFunc is an instance of a mock function object controlling

@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/conf/conftypes"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf/conftypes"
 )
 
 func TestClient_continuouslyUpdate(t *testing.T) {

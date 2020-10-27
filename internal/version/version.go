@@ -14,7 +14,7 @@ const devVersion = "0.0.0+dev"                              // version string fo
 var devTimestamp = strconv.FormatInt(time.Now().Unix(), 10) // build timestamp for unreleased development builds
 
 // version is configured at build time via ldflags like this:
-// -ldflags "-X github.com/tetrafolium/sourcegraph/internal/version.version=1.2.3"
+// -ldflags "-X github.com/tetrafolium/sourcegraph-cloned/internal/version.version=1.2.3"
 //
 // The version may not be semver-compatible, e.g. `insiders` or `65769_2020-06-05_9bd91a3`.
 var version = devVersion
@@ -45,7 +45,7 @@ func MockTimestamp(mockTimestamp string) {
 }
 
 // timestamp is the build timestamp configured at build time via ldflags like this:
-// -ldflags "-X github.com/tetrafolium/sourcegraph/internal/version.timestamp=$UNIX_SECONDS"
+// -ldflags "-X github.com/tetrafolium/sourcegraph-cloned/internal/version.timestamp=$UNIX_SECONDS"
 var timestamp = devTimestamp
 
 // HowLongOutOfDate returns a time in months since this build of Sourcegraph was created. It is

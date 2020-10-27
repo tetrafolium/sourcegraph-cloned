@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/internal/actor"
-	"github.com/tetrafolium/sourcegraph/internal/processrestart"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/processrestart"
 )
 
 // canReloadSite is whether the current site can be reloaded via the API. Currently

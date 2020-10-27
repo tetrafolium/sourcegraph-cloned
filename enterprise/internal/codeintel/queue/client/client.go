@@ -15,10 +15,10 @@ import (
 
 	"github.com/opentracing-contrib/go-stdlib/nethttp"
 	"github.com/opentracing/opentracing-go/ext"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/queue/types"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
-	"github.com/tetrafolium/sourcegraph/internal/metrics"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/queue/types"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/metrics"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 	"golang.org/x/net/context/ctxhttp"
 )
 

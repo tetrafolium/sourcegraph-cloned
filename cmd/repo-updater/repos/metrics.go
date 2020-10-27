@@ -8,7 +8,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/tetrafolium/sourcegraph/internal/db/dbutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbutil"
 )
 
 const (

@@ -12,12 +12,12 @@ import (
 	"sync"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-bundle-manager/internal/paths"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/cache"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/postgres"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/sqlite/migrate"
-	"github.com/tetrafolium/sourcegraph/internal/db/basestore"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-bundle-manager/internal/paths"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/cache"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/postgres"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/sqlite/migrate"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/basestore"
 )
 
 // NumMigrateRoutines is the number of goroutines launched to migrate bundle files.

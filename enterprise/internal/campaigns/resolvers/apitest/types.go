@@ -2,8 +2,8 @@ package apitest
 
 import (
 	"github.com/sourcegraph/go-diff/diff"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	"github.com/tetrafolium/sourcegraph/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
 )
 
 type GitTarget struct {

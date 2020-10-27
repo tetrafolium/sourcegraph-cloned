@@ -9,9 +9,9 @@ import (
 	"unicode/utf8"
 
 	zoektquery "github.com/google/zoekt/query"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/lazyregexp"
-	"github.com/tetrafolium/sourcegraph/internal/search"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/lazyregexp"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search"
 )
 
 var matchHoleRegexp = lazyregexp.New(splitOnHolesPattern())

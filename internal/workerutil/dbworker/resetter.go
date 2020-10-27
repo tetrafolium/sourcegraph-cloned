@@ -8,7 +8,7 @@ import (
 	"github.com/efritz/glock"
 	"github.com/inconshreveable/log15"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil/dbworker/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil/dbworker/store"
 )
 
 // Resetter periodically moves all unlocked records that have been in the processing state

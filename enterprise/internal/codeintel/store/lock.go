@@ -6,7 +6,7 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/keegancsmith/sqlf"
 	"github.com/segmentio/fasthash/fnv1"
-	"github.com/tetrafolium/sourcegraph/internal/db/basestore"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/basestore"
 )
 
 // appLockKey is the namespace in which all advisory locks are taken.

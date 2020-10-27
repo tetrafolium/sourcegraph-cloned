@@ -9,8 +9,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/tetrafolium/sourcegraph/internal/gqltestutil"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gqltestutil"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 func TestOrganization(t *testing.T) {

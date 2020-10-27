@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/pkg/errors"
-	queue "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/queue/client"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil"
+	queue "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/queue/client"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil"
 )
 
 // storeShim converts a queue client into a workerutil.Store.

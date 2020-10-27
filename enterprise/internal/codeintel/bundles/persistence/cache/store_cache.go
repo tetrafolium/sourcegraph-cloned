@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence"
 )
 
 // StoreCache is a cache of store instances with very short TTL values. The primary purpose of this

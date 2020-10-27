@@ -4,13 +4,13 @@ package mocks
 
 import (
 	"context"
-	lsifstore "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/lsifstore"
+	lsifstore "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/lsifstore"
 	"sync"
 )
 
 // MockStore is a mock implementation of the Store interface (from the
 // package
-// github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/lsifstore)
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/lsifstore)
 // used for unit testing.
 type MockStore struct {
 	// ClearFunc is an instance of a mock function object controlling the

@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/tetrafolium/sourcegraph/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
 )
 
 type clientConfigurationResolver struct {

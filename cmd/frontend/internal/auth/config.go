@@ -1,6 +1,6 @@
 package auth
 
-import "github.com/tetrafolium/sourcegraph/internal/conf"
+import "github.com/tetrafolium/sourcegraph-cloned/internal/conf"
 
 func init() {
 	conf.ContributeValidator(validateConfig)

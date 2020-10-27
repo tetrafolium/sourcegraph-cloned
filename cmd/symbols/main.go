@@ -16,16 +16,16 @@ import (
 
 	"github.com/inconshreveable/log15"
 
-	"github.com/tetrafolium/sourcegraph/cmd/symbols/internal/symbols"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/debugserver"
-	"github.com/tetrafolium/sourcegraph/internal/env"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/logging"
-	"github.com/tetrafolium/sourcegraph/internal/sqliteutil"
-	"github.com/tetrafolium/sourcegraph/internal/trace"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
-	"github.com/tetrafolium/sourcegraph/internal/tracer"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/symbols/internal/symbols"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/debugserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/logging"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/sqliteutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/tracer"
 )
 
 const port = "3184"

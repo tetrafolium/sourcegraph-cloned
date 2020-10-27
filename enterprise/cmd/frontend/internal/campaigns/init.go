@@ -5,12 +5,12 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/enterprise"
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/repos"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/campaigns"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/campaigns/resolvers"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
-	"github.com/tetrafolium/sourcegraph/internal/db/globalstatedb"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/enterprise"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/repos"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/campaigns/resolvers"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/globalstatedb"
 )
 
 func Init(ctx context.Context, enterpriseServices *enterprise.Services) error {

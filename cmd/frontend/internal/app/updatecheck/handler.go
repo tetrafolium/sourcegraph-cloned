@@ -17,13 +17,13 @@ import (
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/app/tracking"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/env"
-	"github.com/tetrafolium/sourcegraph/internal/hubspot"
-	"github.com/tetrafolium/sourcegraph/internal/lazyregexp"
-	"github.com/tetrafolium/sourcegraph/internal/pubsub"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/app/tracking"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/hubspot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/lazyregexp"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/pubsub"
 )
 
 // pubSubPingsTopicID is the topic ID of the topic that forwards messages to Pings' pub/sub subscribers.

@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/internal/db/dbtesting"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbtesting"
 )
 
 // 🚨 SECURITY: This tests the routine that creates access tokens and returns the token secret value

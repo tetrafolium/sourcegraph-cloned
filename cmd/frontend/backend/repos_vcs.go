@@ -8,17 +8,17 @@ import (
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/envvar"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/repoupdater"
-	"github.com/tetrafolium/sourcegraph/internal/repoupdater/protocol"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/git"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/envvar"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/repoupdater"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/repoupdater/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 // CachedGitRepo returns a handle to the Git repository that does not know the remote URL. If

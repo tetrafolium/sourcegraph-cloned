@@ -10,7 +10,7 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/segmentio/fasthash/fnv1"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/git"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
 )
 
 // timelineItemTypes contains all the types requested via GraphQL from the timelineItems connection on a pull request.

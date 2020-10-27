@@ -22,10 +22,10 @@ import (
 	otlog "github.com/opentracing/opentracing-go/log"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbutil"
-	"github.com/tetrafolium/sourcegraph/internal/env"
-	"github.com/tetrafolium/sourcegraph/internal/lazyregexp"
-	"github.com/tetrafolium/sourcegraph/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/lazyregexp"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
 )
 
 var (

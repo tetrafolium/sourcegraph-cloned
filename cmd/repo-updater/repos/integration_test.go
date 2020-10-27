@@ -8,9 +8,9 @@ import (
 	"github.com/inconshreveable/log15"
 	"github.com/opentracing/opentracing-go"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/repos"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbtest"
-	"github.com/tetrafolium/sourcegraph/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/repos"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbtest"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
 )
 
 // This error is passed to txstore.Done in order to always

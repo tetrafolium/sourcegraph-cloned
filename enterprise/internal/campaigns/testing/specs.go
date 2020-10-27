@@ -6,7 +6,7 @@ import (
 
 	"github.com/graph-gophers/graphql-go"
 	"github.com/sourcegraph/go-diff/diff"
-	"github.com/tetrafolium/sourcegraph/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
 )
 
 const TestRawCampaignSpec = `{

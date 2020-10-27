@@ -4,13 +4,13 @@ package database
 
 import (
 	"context"
-	clienttypes "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client_types"
+	clienttypes "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client_types"
 	"sync"
 )
 
 // MockDatabase is a mock implementation of the Database interface (from the
 // package
-// github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/database)
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/database)
 // used for unit testing.
 type MockDatabase struct {
 	// CloseFunc is an instance of a mock function object controlling the

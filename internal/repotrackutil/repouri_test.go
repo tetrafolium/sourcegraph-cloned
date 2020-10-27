@@ -3,7 +3,7 @@ package repotrackutil
 import (
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
 )
 
 func TestGetTrackedRepo(t *testing.T) {

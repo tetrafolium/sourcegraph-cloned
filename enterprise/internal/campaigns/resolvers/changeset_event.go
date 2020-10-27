@@ -3,10 +3,10 @@ package resolvers
 import (
 	"github.com/graph-gophers/graphql-go"
 	"github.com/graph-gophers/graphql-go/relay"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	ee "github.com/tetrafolium/sourcegraph/enterprise/internal/campaigns"
-	"github.com/tetrafolium/sourcegraph/internal/campaigns"
-	"github.com/tetrafolium/sourcegraph/internal/httpcli"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	ee "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/httpcli"
 )
 
 type changesetEventResolver struct {

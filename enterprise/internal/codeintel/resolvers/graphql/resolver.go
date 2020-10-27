@@ -5,10 +5,10 @@ import (
 	"strings"
 
 	"github.com/graph-gophers/graphql-go"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	gql "github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/resolvers"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	gql "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/resolvers"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
 )
 
 const DefaultUploadPageSize = 50

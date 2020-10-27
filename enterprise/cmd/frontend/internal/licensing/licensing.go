@@ -6,9 +6,9 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/license"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/license"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
 	"golang.org/x/crypto/ssh"
 )
 

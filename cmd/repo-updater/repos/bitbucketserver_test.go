@@ -11,11 +11,11 @@ import (
 	"testing"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/internal/campaigns"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/bitbucketserver"
-	"github.com/tetrafolium/sourcegraph/internal/testutil"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/bitbucketserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/testutil"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 func TestBitbucketServerSource_MakeRepo(t *testing.T) {

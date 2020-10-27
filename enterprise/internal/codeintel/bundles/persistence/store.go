@@ -3,7 +3,7 @@ package persistence
 import (
 	"context"
 
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/types"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/types"
 )
 
 // KeyedDocumentData pairs a document with its path.

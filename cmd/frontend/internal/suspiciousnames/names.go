@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/envvar"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/envvar"
 )
 
 // CheckNameAllowedForUserOrOrganization returns a non-nil error if the desired username or

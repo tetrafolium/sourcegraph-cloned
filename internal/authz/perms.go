@@ -7,8 +7,8 @@ import (
 	"github.com/RoaringBitmap/roaring"
 	otlog "github.com/opentracing/opentracing-go/log"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
 )
 
 var ErrPermsNotFound = errors.New("permissions not found")

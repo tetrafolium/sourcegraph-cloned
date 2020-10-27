@@ -4,8 +4,8 @@ import (
 	"context"
 	"html/template"
 
-	"github.com/tetrafolium/sourcegraph/internal/highlight"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/git"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/highlight"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
 )
 
 type highlightedRange struct {

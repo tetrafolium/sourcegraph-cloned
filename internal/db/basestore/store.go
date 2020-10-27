@@ -5,7 +5,7 @@ import (
 	"database/sql"
 
 	"github.com/keegancsmith/sqlf"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbutil"
 )
 
 // Store is an abstract Postgres-backed data access layer. Instances of this struct

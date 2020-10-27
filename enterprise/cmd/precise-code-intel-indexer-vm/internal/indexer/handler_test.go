@@ -7,9 +7,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/uuid"
-	indexmanager "github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-indexer-vm/internal/index_manager"
-	queuemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/queue/client/mocks"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
+	indexmanager "github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-indexer-vm/internal/index_manager"
+	queuemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/queue/client/mocks"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
 )
 
 func init() {

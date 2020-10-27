@@ -9,8 +9,8 @@ import (
 
 	"github.com/inconshreveable/log15"
 
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbtesting"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbtesting"
 )
 
 func TestMain(m *testing.M) {

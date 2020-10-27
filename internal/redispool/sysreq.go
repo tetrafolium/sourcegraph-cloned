@@ -7,8 +7,8 @@ import (
 	"fmt"
 
 	"github.com/gomodule/redigo/redis"
-	"github.com/tetrafolium/sourcegraph/internal/env"
-	"github.com/tetrafolium/sourcegraph/internal/sysreq"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/sysreq"
 )
 
 var timeout, _ = time.ParseDuration(env.Get("SRC_REDIS_WAIT_FOR", "90s", "Duration to wait for Redis to become ready before quitting"))
@@ -24,7 +24,7 @@ func redisCheck(name, addr string, timeout time.Duration, pool *redis.Pool) sysr
 			// Instead of just a PING, we also use this hook point to force a rewrite of
 			// the AOF file on startup of the frontend as a way to ensure it doesn't
 			// grow out of bounds which slows down future startups.
-			// See https://github.com/tetrafolium/sourcegraph/issues/3300 for more context
+			// See https://github.com/tetrafolium/sourcegraph-cloned/issues/3300 for more context
 
 			c := pool.Get()
 			defer func() { _ = c.Close() }()

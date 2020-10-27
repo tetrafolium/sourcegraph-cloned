@@ -5,14 +5,14 @@ import (
 	"errors"
 
 	"github.com/keegancsmith/sqlf"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/serialization"
-	v0 "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/sqlite/migrate/v0"
-	v1 "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/sqlite/migrate/v1"
-	v2 "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/sqlite/migrate/v2"
-	v3 "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/sqlite/migrate/v3"
-	v4 "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/sqlite/migrate/v4"
-	v5 "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/sqlite/migrate/v5"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/sqlite/store"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/serialization"
+	v0 "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/sqlite/migrate/v0"
+	v1 "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/sqlite/migrate/v1"
+	v2 "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/sqlite/migrate/v2"
+	v3 "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/sqlite/migrate/v3"
+	v4 "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/sqlite/migrate/v4"
+	v5 "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/sqlite/migrate/v5"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/sqlite/store"
 )
 
 // ErrNoVersion occurs when there are no rows in the schema_version table.

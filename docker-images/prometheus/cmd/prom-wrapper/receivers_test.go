@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 func TestNewRoutesAndReceivers(t *testing.T) {

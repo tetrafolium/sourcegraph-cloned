@@ -8,8 +8,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sourcegraph/campaignutils/yaml"
 	"github.com/sourcegraph/go-diff/diff"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 func NewChangesetSpecFromRaw(rawSpec string) (*ChangesetSpec, error) {

@@ -210,7 +210,7 @@ func Frontend() *Container {
 							PanelOptions: PanelOptions().LegendFormat("{{alert_type}}").Unit(Percentage),
 							Owner:        ObservableOwnerCodeIntel,
 							PossibleSolutions: `
-								- This indicates a bug in Sourcegraph, please [open an issue](https://github.com/tetrafolium/sourcegraph/issues/new/choose).
+								- This indicates a bug in Sourcegraph, please [open an issue](https://github.com/tetrafolium/sourcegraph-cloned/issues/new/choose).
 							`,
 						},
 					},

@@ -11,16 +11,16 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/keegancsmith/sqlf"
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/repos"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/campaigns"
-	"github.com/tetrafolium/sourcegraph/internal/db/basestore"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/bitbucketserver"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/github"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/gitlab"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/repos"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/basestore"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/bitbucketserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/github"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/gitlab"
 
-	cmpgn "github.com/tetrafolium/sourcegraph/internal/campaigns"
+	cmpgn "github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
 )
 
 func testStoreChangesets(t *testing.T, ctx context.Context, s *Store, reposStore repos.Store, clock clock) {
@@ -33,7 +33,7 @@ func testStoreChangesets(t *testing.T, ctx context.Context, s *Store, reposStore
 		ID:           "FOOBARID",
 		Title:        "Fix a bunch of bugs",
 		Body:         "This fixes a bunch of bugs",
-		URL:          "https://github.com/tetrafolium/sourcegraph/pull/12345",
+		URL:          "https://github.com/tetrafolium/sourcegraph-cloned/pull/12345",
 		Number:       12345,
 		Author:       githubActor,
 		Participants: []github.Actor{githubActor},
@@ -1009,7 +1009,7 @@ func testStoreListChangesetSyncData(t *testing.T, ctx context.Context, s *Store,
 		ID:           "FOOBARID",
 		Title:        "Fix a bunch of bugs",
 		Body:         "This fixes a bunch of bugs",
-		URL:          "https://github.com/tetrafolium/sourcegraph/pull/12345",
+		URL:          "https://github.com/tetrafolium/sourcegraph-cloned/pull/12345",
 		Number:       12345,
 		Author:       githubActor,
 		Participants: []github.Actor{githubActor},
@@ -1027,7 +1027,7 @@ func testStoreListChangesetSyncData(t *testing.T, ctx context.Context, s *Store,
 		Editor:              nil,
 		AuthorAssociation:   "MEMBER",
 		Body:                "> Just to be sure: you mean the \"searchFilters\" \"Filters\" should be lowercase, not the \"Search Filters\" from the description, right?\r\n\r\nNo, the prose “Search Filters” should have the F lowercased to fit with our style guide preference for sentence case over title case. (Can’t find this comment on the GitHub mobile interface anymore so quoting the email.)",
-		URL:                 "https://github.com/tetrafolium/sourcegraph/pull/999#issuecomment-443827703",
+		URL:                 "https://github.com/tetrafolium/sourcegraph-cloned/pull/999#issuecomment-443827703",
 		CreatedAt:           clock.now(),
 		UpdatedAt:           clock.now(),
 		IncludesCreatedEdit: false,

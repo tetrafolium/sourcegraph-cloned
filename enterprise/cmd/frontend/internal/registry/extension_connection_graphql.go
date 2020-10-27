@@ -5,8 +5,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/registry"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/registry"
 )
 
 func init() {

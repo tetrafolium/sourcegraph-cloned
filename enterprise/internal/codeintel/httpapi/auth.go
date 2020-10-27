@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
 )
 
 func isSiteAdmin(ctx context.Context) bool {
@@ -43,7 +43,7 @@ func enforceAuth(ctx context.Context, w http.ResponseWriter, r *http.Request, re
 		}
 	}
 
-	http.Error(w, "verification not supported for code host - see https://github.com/tetrafolium/sourcegraph/issues/4967", http.StatusUnprocessableEntity)
+	http.Error(w, "verification not supported for code host - see https://github.com/tetrafolium/sourcegraph-cloned/issues/4967", http.StatusUnprocessableEntity)
 	return false
 }
 

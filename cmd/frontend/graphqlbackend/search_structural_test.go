@@ -8,15 +8,15 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/zoekt"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/endpoint"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/search"
-	searchbackend "github.com/tetrafolium/sourcegraph/internal/search/backend"
-	"github.com/tetrafolium/sourcegraph/internal/search/query"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/endpoint"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search"
+	searchbackend "github.com/tetrafolium/sourcegraph-cloned/internal/search/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search/query"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 // Tests that indexed repos are filtered in structural search

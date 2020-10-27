@@ -12,7 +12,7 @@ import (
 	"github.com/inconshreveable/log15"
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/tetrafolium/sourcegraph/internal/gqltestutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gqltestutil"
 )
 
 var client *gqltestutil.Client

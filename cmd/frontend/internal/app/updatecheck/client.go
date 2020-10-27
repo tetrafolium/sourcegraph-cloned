@@ -16,15 +16,15 @@ import (
 	"github.com/inconshreveable/log15"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/envvar"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/siteid"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/usagestats"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/usagestatsdeprecated"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/httpcli"
-	"github.com/tetrafolium/sourcegraph/internal/metrics"
-	"github.com/tetrafolium/sourcegraph/internal/version"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/envvar"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/siteid"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/usagestats"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/usagestatsdeprecated"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/httpcli"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/metrics"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/version"
 )
 
 // metricsRecorder records operational metrics for methods.

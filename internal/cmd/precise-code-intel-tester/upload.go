@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/cmd/precise-code-intel-tester/util"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/cmd/precise-code-intel-tester/util"
 )
 
 // uploadCommand runs the "upload" command.

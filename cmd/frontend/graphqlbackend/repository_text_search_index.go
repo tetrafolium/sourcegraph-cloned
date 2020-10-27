@@ -7,7 +7,7 @@ import (
 
 	"github.com/google/zoekt"
 	zoektquery "github.com/google/zoekt/query"
-	"github.com/tetrafolium/sourcegraph/internal/search"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search"
 )
 
 func (r *RepositoryResolver) TextSearchIndex() *repositoryTextSearchIndexResolver {

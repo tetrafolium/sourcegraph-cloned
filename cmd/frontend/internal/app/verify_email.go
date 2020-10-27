@@ -6,9 +6,9 @@ import (
 	"net/url"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/internal/actor"
-	"github.com/tetrafolium/sourcegraph/internal/authz"
-	"github.com/tetrafolium/sourcegraph/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/authz"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
 )
 
 func serveVerifyEmail(w http.ResponseWriter, r *http.Request) {

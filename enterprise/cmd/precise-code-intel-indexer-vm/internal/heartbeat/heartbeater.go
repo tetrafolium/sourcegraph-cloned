@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/inconshreveable/log15"
-	indexmanager "github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-indexer-vm/internal/index_manager"
-	queue "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/queue/client"
-	"github.com/tetrafolium/sourcegraph/internal/goroutine"
+	indexmanager "github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-indexer-vm/internal/index_manager"
+	queue "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/queue/client"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/goroutine"
 )
 
 type Heartbeater struct {

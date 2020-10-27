@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/repos"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/github"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/repos"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/github"
 
-	cmpgn "github.com/tetrafolium/sourcegraph/internal/campaigns"
+	cmpgn "github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
 )
 
 func testStoreChangesetEvents(t *testing.T, ctx context.Context, s *Store, _ repos.Store, clock clock) {
@@ -22,7 +22,7 @@ func testStoreChangesetEvents(t *testing.T, ctx context.Context, s *Store, _ rep
 		Editor:              nil,
 		AuthorAssociation:   "MEMBER",
 		Body:                "> Just to be sure: you mean the \"searchFilters\" \"Filters\" should be lowercase, not the \"Search Filters\" from the description, right?\r\n\r\nNo, the prose “Search Filters” should have the F lowercased to fit with our style guide preference for sentence case over title case. (Can’t find this comment on the GitHub mobile interface anymore so quoting the email.)",
-		URL:                 "https://github.com/tetrafolium/sourcegraph/pull/999#issuecomment-443827703",
+		URL:                 "https://github.com/tetrafolium/sourcegraph-cloned/pull/999#issuecomment-443827703",
 		CreatedAt:           clock.now(),
 		UpdatedAt:           clock.now(),
 		IncludesCreatedEdit: false,

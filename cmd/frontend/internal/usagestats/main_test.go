@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbtesting"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbtesting"
 )
 
 func init() {

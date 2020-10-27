@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/cmd/server/shared/assets"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/server/shared/assets"
 )
 
 var nginxConf = assets.MustAsset("nginx.conf")

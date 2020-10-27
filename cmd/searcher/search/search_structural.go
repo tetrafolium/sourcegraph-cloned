@@ -8,9 +8,9 @@ import (
 
 	"github.com/inconshreveable/log15"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tetrafolium/sourcegraph/cmd/searcher/protocol"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/comby"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/searcher/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/comby"
 )
 
 // The Sourcegraph frontend and interface only allow LineMatches (matches on a

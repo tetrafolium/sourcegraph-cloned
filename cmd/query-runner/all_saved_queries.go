@@ -10,8 +10,8 @@ import (
 
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/cmd/query-runner/queryrunnerapi"
-	"github.com/tetrafolium/sourcegraph/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/query-runner/queryrunnerapi"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
 )
 
 // diffSavedQueryConfigs takes the old and new saved queries configurations.

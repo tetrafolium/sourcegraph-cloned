@@ -3,7 +3,7 @@ package reposource
 import (
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 func TestGitLab_cloneURLToRepoName(t *testing.T) {

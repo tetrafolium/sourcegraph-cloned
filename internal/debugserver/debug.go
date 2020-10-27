@@ -12,7 +12,7 @@ import (
 
 	"github.com/felixge/fgprof"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/tetrafolium/sourcegraph/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
 	"golang.org/x/net/trace"
 )
 

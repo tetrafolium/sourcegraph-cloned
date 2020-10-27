@@ -3,4 +3,4 @@
 //
 // See https://sourcegraph.com and the README.md file for more
 // information.
-package sourcegraph // import "github.com/tetrafolium/sourcegraph"
+package sourcegraph // import "github.com/tetrafolium/sourcegraph-cloned"

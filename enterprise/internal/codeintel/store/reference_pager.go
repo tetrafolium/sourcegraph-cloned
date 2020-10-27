@@ -3,7 +3,7 @@ package store
 import (
 	"context"
 
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/types"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/types"
 )
 
 // DoneFunc is the function type of store's Done method.

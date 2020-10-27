@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/gitlab"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/gitlab"
 )
 
 // unexported key type prevents collisions

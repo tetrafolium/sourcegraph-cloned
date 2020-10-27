@@ -10,7 +10,7 @@ import (
 
 	saml2 "github.com/russellhaering/gosaml2"
 	dsig "github.com/russellhaering/goxmldsig"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
 )
 
 func TestReadAuthnResponse(t *testing.T) {

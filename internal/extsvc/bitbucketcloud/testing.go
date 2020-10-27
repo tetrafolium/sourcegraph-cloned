@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/internal/httpcli"
-	"github.com/tetrafolium/sourcegraph/internal/httptestutil"
-	"github.com/tetrafolium/sourcegraph/internal/lazyregexp"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/httpcli"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/httptestutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/lazyregexp"
 )
 
 func GetenvTestBitbucketCloudUsername() string {

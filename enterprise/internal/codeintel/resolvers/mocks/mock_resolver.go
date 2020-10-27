@@ -4,15 +4,15 @@ package mocks
 
 import (
 	"context"
-	graphqlbackend "github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	resolvers "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/resolvers"
-	store "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
+	graphqlbackend "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	resolvers "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/resolvers"
+	store "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
 	"sync"
 )
 
 // MockResolver is a mock implementation of the Resolver interface (from the
 // package
-// github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/resolvers)
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/resolvers)
 // used for unit testing.
 type MockResolver struct {
 	// DeleteIndexByIDFunc is an instance of a mock function object

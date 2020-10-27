@@ -12,8 +12,8 @@ import (
 	"github.com/opentracing/opentracing-go/ext"
 	prometheus "github.com/prometheus/client_golang/api/prometheus/v1"
 	"github.com/prometheus/common/model"
-	"github.com/tetrafolium/sourcegraph/internal/prometheusutil"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/prometheusutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 )
 
 // MonitoringAlert implements the GraphQL type MonitoringAlert.

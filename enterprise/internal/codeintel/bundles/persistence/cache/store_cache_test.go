@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence"
-	persistencemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/mocks"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/types"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence"
+	persistencemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/mocks"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/types"
 )
 
 func TestStoreCache(t *testing.T) {

@@ -11,8 +11,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/gqltestutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gqltestutil"
 )
 
 func TestSearch(t *testing.T) {
@@ -577,7 +577,7 @@ func TestSearch(t *testing.T) {
 				zeroResult: true,
 				wantAlert: &gqltestutil.SearchAlert{
 					Title:       "Too many files to search for and-expression",
-					Description: "One and-expression in the query requires a lot of work! Try using the 'repo:' or 'file:' filters to narrow your search. We're working on improving this experience in https://github.com/tetrafolium/sourcegraph/issues/9824",
+					Description: "One and-expression in the query requires a lot of work! Try using the 'repo:' or 'file:' filters to narrow your search. We're working on improving this experience in https://github.com/tetrafolium/sourcegraph-cloned/issues/9824",
 				},
 			},
 			{

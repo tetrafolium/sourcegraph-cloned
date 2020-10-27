@@ -12,14 +12,14 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/tetrafolium/sourcegraph/internal/db/basestore"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbutil"
-	"github.com/tetrafolium/sourcegraph/internal/metrics"
-	"github.com/tetrafolium/sourcegraph/internal/observation"
-	"github.com/tetrafolium/sourcegraph/internal/trace"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil/dbworker"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil/dbworker/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/basestore"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/metrics"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/observation"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil/dbworker"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil/dbworker/store"
 )
 
 type SyncWorkerOptions struct {

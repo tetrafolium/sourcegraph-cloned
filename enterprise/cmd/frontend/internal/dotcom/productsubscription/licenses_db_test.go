@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbtesting"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbtesting"
 )
 
 func TestProductLicenses_Create(t *testing.T) {

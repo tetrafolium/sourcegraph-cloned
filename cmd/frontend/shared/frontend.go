@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/enterprise"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/cli"
-	"github.com/tetrafolium/sourcegraph/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/enterprise"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/cli"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
 
-	_ "github.com/tetrafolium/sourcegraph/cmd/frontend/registry"
+	_ "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/registry"
 )
 
 // Main is the main function that runs the frontend process.

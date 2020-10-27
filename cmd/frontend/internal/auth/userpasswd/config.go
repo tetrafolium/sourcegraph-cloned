@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 // ResetPasswordEnabled reports whether the reset-password flow is enabled (per site config).

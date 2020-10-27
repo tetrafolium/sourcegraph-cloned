@@ -1,6 +1,6 @@
 package registry
 
-import "github.com/tetrafolium/sourcegraph/cmd/frontend/internal/app/ui/router"
+import "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/app/ui/router"
 
 // ExtensionURL returns the URL path to an extension.
 var ExtensionURL = router.Extension

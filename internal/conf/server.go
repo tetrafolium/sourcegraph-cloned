@@ -9,7 +9,7 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/sourcegraph/jsonx"
-	"github.com/tetrafolium/sourcegraph/internal/conf/conftypes"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf/conftypes"
 )
 
 // ConfigurationSource provides direct access to read and write to the

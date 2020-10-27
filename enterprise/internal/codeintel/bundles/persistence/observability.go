@@ -3,9 +3,9 @@ package persistence
 import (
 	"context"
 
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/types"
-	"github.com/tetrafolium/sourcegraph/internal/metrics"
-	"github.com/tetrafolium/sourcegraph/internal/observation"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/metrics"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/observation"
 )
 
 // An ObservedStore wraps another Store with error logging, Prometheus metrics, and tracing.

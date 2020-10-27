@@ -8,14 +8,14 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/keegancsmith/sqlf"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/serialization"
-	gobserializer "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/serialization/gob"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/sqlite/util"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/types"
-	"github.com/tetrafolium/sourcegraph/internal/db/basestore"
-	"github.com/tetrafolium/sourcegraph/internal/db/batch"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbutil"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/serialization"
+	gobserializer "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/serialization/gob"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/sqlite/util"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/basestore"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/batch"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbutil"
 )
 
 var ErrNoMetadata = errors.New("no rows in meta table")

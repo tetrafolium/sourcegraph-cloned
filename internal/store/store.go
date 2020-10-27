@@ -21,13 +21,13 @@ import (
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/diskcache"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/metrics"
-	"github.com/tetrafolium/sourcegraph/internal/mutablelimiter"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/diskcache"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/metrics"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/mutablelimiter"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 )
 
 // maxFileSize is the limit on file size in bytes. Only files smaller
@@ -272,7 +272,7 @@ func copySearchable(tr *tar.Reader, zw *zip.Writer, largeFilePatterns []string, 
 			// Gitserver sometimes returns invalid headers. However, it only
 			// seems to occur in situations where a retry would likely solve
 			// it. So mark the error as temporary, to avoid failing the whole
-			// search. https://github.com/tetrafolium/sourcegraph/issues/3799
+			// search. https://github.com/tetrafolium/sourcegraph-cloned/issues/3799
 			if err == tar.ErrHeader {
 				return temporaryError{error: err}
 			}

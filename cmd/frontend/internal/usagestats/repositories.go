@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/google/zoekt/query"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/search"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search"
 )
 
 type Repositories struct {

@@ -9,13 +9,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/envvar"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/rcache"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/git"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/util"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/envvar"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/rcache"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/util"
 )
 
 func TestCountGoImporters(t *testing.T) {

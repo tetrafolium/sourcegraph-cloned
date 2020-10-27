@@ -5,13 +5,13 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 	"github.com/keegancsmith/sqlf"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/cache"
-	gobserializer "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/serialization/gob"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/sqlite/batch"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/sqlite/migrate"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/sqlite/store"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/types"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/cache"
+	gobserializer "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/serialization/gob"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/sqlite/batch"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/sqlite/migrate"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/sqlite/store"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/types"
 )
 
 func NewStore(ctx context.Context, filename string, cache cache.DataCache) (_ persistence.Store, err error) {

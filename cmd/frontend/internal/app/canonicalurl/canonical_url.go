@@ -5,7 +5,7 @@ package canonicalurl
 import (
 	"net/url"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/app/returnto"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/app/returnto"
 )
 
 // nonCanonicalQueryParams are query parameters that do not affect

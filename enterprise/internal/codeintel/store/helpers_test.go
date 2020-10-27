@@ -12,8 +12,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/keegancsmith/sqlf"
 	"github.com/lib/pq"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/types"
-	"github.com/tetrafolium/sourcegraph/internal/db/basestore"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/basestore"
 )
 
 type printableRank struct{ value *int }

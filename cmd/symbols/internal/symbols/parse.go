@@ -13,9 +13,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 	ctags "github.com/sourcegraph/go-ctags"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/symbols/protocol"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/symbols/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 	nettrace "golang.org/x/net/trace"
 )
 

@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/opentracing/opentracing-go/log"
-	bundles "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client_types"
-	"github.com/tetrafolium/sourcegraph/internal/metrics"
-	"github.com/tetrafolium/sourcegraph/internal/observation"
+	bundles "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client_types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/metrics"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/observation"
 )
 
 // An ObservedDatabase wraps another Database with error logging, Prometheus metrics, and tracing.

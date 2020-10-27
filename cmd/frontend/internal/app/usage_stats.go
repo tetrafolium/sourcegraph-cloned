@@ -5,8 +5,8 @@ import (
 
 	"github.com/inconshreveable/log15"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/usagestats"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/usagestats"
 )
 
 func usageStatsArchiveHandler(w http.ResponseWriter, r *http.Request) {

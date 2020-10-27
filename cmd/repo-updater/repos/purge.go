@@ -9,9 +9,9 @@ import (
 
 	"github.com/inconshreveable/log15"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver/protocol"
 )
 
 // RunRepositoryPurgeWorker is a worker which deletes repos which are present

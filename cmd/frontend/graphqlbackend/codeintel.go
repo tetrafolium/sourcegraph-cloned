@@ -5,9 +5,9 @@ import (
 	"errors"
 
 	"github.com/graph-gophers/graphql-go"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend/graphqlutil"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend/graphqlutil"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
 )
 
 type CodeIntelResolver interface {

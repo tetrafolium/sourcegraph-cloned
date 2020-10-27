@@ -13,7 +13,7 @@ import (
 	"github.com/graph-gophers/graphql-go/gqltesting"
 	"github.com/inconshreveable/log15"
 
-	"github.com/tetrafolium/sourcegraph/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
 )
 
 func BenchmarkPrometheusFieldName(b *testing.B) {

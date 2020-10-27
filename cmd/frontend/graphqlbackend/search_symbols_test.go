@@ -7,10 +7,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/gituri"
-	"github.com/tetrafolium/sourcegraph/internal/symbols/protocol"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/git"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gituri"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/symbols/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
 )
 
 func TestMakeFileMatchURIFromSymbol(t *testing.T) {

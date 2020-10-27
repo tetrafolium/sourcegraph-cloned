@@ -8,14 +8,14 @@ import (
 	"sync"
 
 	"github.com/graph-gophers/graphql-go"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver/protocol"
-	"github.com/tetrafolium/sourcegraph/internal/lazyregexp"
-	"github.com/tetrafolium/sourcegraph/internal/repoupdater"
-	repoupdaterprotocol "github.com/tetrafolium/sourcegraph/internal/repoupdater/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/lazyregexp"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/repoupdater"
+	repoupdaterprotocol "github.com/tetrafolium/sourcegraph-cloned/internal/repoupdater/protocol"
 )
 
 func (r *RepositoryResolver) MirrorInfo() *repositoryMirrorInfoResolver {

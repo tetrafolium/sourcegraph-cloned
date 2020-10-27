@@ -1,6 +1,6 @@
 package postgres
 
-import "github.com/tetrafolium/sourcegraph/internal/sqliteutil"
+import "github.com/tetrafolium/sourcegraph-cloned/internal/sqliteutil"
 
 func init() {
 	sqliteutil.SetLocalLibpath()

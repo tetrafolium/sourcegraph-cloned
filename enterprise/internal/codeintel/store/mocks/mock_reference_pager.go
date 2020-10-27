@@ -4,14 +4,14 @@ package mocks
 
 import (
 	"context"
-	types "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/types"
-	store "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
+	types "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/types"
+	store "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
 	"sync"
 )
 
 // MockReferencePager is a mock implementation of the ReferencePager
 // interface (from the package
-// github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store)
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store)
 // used for unit testing.
 type MockReferencePager struct {
 	// DoneFunc is an instance of a mock function object controlling the

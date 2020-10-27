@@ -9,7 +9,7 @@ import (
 
 	"github.com/graph-gophers/graphql-go"
 	gqlerrors "github.com/graph-gophers/graphql-go/errors"
-	"github.com/tetrafolium/sourcegraph/internal/jsonc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/jsonc"
 )
 
 // MustExec uses Exec to execute the given query and calls t.Fatalf if Exec failed.

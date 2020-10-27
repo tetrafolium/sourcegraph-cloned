@@ -7,11 +7,11 @@ import (
 
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-indexer/internal/inference"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/index"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
-	"github.com/tetrafolium/sourcegraph/internal/goroutine"
-	"github.com/tetrafolium/sourcegraph/internal/vcs"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-indexer/internal/inference"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/index"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/goroutine"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs"
 )
 
 type Scheduler struct {

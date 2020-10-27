@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-worker/internal/correlation/datastructures"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-worker/internal/correlation/lsif"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-worker/internal/correlation/datastructures"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-worker/internal/correlation/lsif"
 )
 
 func TestCorrelate(t *testing.T) {

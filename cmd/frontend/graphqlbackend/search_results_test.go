@@ -11,15 +11,15 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/zoekt"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/search"
-	searchbackend "github.com/tetrafolium/sourcegraph/internal/search/backend"
-	"github.com/tetrafolium/sourcegraph/internal/search/query"
-	searchquerytypes "github.com/tetrafolium/sourcegraph/internal/search/query/types"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search"
+	searchbackend "github.com/tetrafolium/sourcegraph-cloned/internal/search/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search/query"
+	searchquerytypes "github.com/tetrafolium/sourcegraph-cloned/internal/search/query/types"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 	"go.uber.org/atomic"
 )
 
@@ -1018,14 +1018,14 @@ func TestCommitAndDiffSearchLimits(t *testing.T) {
 			resultTypes:          []string{"diff"},
 			numRepoRevs:          51,
 			wantResultTypes:      []string{}, // diff is removed from the resultTypes
-			wantAlertDescription: `Diff search can currently only handle searching over 50 repositories at a time. Try using the "repo:" filter to narrow down which repositories to search, or using 'after:"1 week ago"'. Tracking issue: https://github.com/tetrafolium/sourcegraph/issues/6826`,
+			wantAlertDescription: `Diff search can currently only handle searching over 50 repositories at a time. Try using the "repo:" filter to narrow down which repositories to search, or using 'after:"1 week ago"'. Tracking issue: https://github.com/tetrafolium/sourcegraph-cloned/issues/6826`,
 		},
 		{
 			name:                 "commit_search_warns_on_repos_greater_than_search_limit",
 			resultTypes:          []string{"commit"},
 			numRepoRevs:          51,
 			wantResultTypes:      []string{}, // diff is removed from the resultTypes
-			wantAlertDescription: `Commit search can currently only handle searching over 50 repositories at a time. Try using the "repo:" filter to narrow down which repositories to search, or using 'after:"1 week ago"'. Tracking issue: https://github.com/tetrafolium/sourcegraph/issues/6826`,
+			wantAlertDescription: `Commit search can currently only handle searching over 50 repositories at a time. Try using the "repo:" filter to narrow down which repositories to search, or using 'after:"1 week ago"'. Tracking issue: https://github.com/tetrafolium/sourcegraph-cloned/issues/6826`,
 		},
 		{
 			name:                 "commit_search_warns_on_repos_greater_than_search_limit_with_time_filter",
@@ -1033,7 +1033,7 @@ func TestCommitAndDiffSearchLimits(t *testing.T) {
 			resultTypes:          []string{"commit"},
 			numRepoRevs:          20000,
 			wantResultTypes:      []string{},
-			wantAlertDescription: `Commit search can currently only handle searching over 10000 repositories at a time. Try using the "repo:" filter to narrow down which repositories to search. Tracking issue: https://github.com/tetrafolium/sourcegraph/issues/6826`,
+			wantAlertDescription: `Commit search can currently only handle searching over 10000 repositories at a time. Try using the "repo:" filter to narrow down which repositories to search. Tracking issue: https://github.com/tetrafolium/sourcegraph-cloned/issues/6826`,
 		},
 		{
 			name:                 "no_warning_when_commit_search_within_search_limit",
@@ -1070,7 +1070,7 @@ func TestCommitAndDiffSearchLimits(t *testing.T) {
 			resultTypes:          []string{"file", "commit"},
 			numRepoRevs:          200,
 			wantResultTypes:      []string{},
-			wantAlertDescription: `Commit search can currently only handle searching over 50 repositories at a time. Try using the "repo:" filter to narrow down which repositories to search, or using 'after:"1 week ago"'. Tracking issue: https://github.com/tetrafolium/sourcegraph/issues/6826`,
+			wantAlertDescription: `Commit search can currently only handle searching over 50 repositories at a time. Try using the "repo:" filter to narrow down which repositories to search, or using 'after:"1 week ago"'. Tracking issue: https://github.com/tetrafolium/sourcegraph-cloned/issues/6826`,
 		},
 	}
 

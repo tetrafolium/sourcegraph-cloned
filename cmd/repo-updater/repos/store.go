@@ -11,17 +11,17 @@ import (
 	"github.com/keegancsmith/sqlf"
 	"github.com/pkg/errors"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/db/basestore"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbutil"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/awscodecommit"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/bitbucketcloud"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/bitbucketserver"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/github"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/gitlab"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/gitolite"
-	"github.com/tetrafolium/sourcegraph/internal/secret"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/basestore"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/awscodecommit"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/bitbucketcloud"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/bitbucketserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/github"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/gitlab"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/gitolite"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/secret"
 )
 
 // A Store exposes methods to read and write repos and external services.

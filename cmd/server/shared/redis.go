@@ -10,7 +10,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/cmd/server/shared/assets"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/server/shared/assets"
 )
 
 var redisStoreConfTmpl = template.Must(template.New("redis-store.conf").Parse(assets.MustAssetString("redis-store.conf.tmpl")))
@@ -99,7 +99,7 @@ func redisProcFileEntry(name, conf string) string {
 }
 
 // redisFixAOF does a best-effort repair of the AOF file in case it is
-// corrupted https://github.com/tetrafolium/sourcegraph/issues/651
+// corrupted https://github.com/tetrafolium/sourcegraph-cloned/issues/651
 func redisFixAOF(rootDataDir string, c redisProcfileConfig) {
 	aofPath := filepath.Join(rootDataDir, c.dataDir, "appendonly.aof")
 	if _, err := os.Stat(aofPath); os.IsNotExist(err) {

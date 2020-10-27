@@ -1,10 +1,10 @@
 package registry
 
 import (
-	frontendregistry "github.com/tetrafolium/sourcegraph/cmd/frontend/registry"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/frontend/internal/licensing"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/registry"
+	frontendregistry "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/registry"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/frontend/internal/licensing"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/registry"
 )
 
 func init() {

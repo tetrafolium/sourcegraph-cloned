@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/gitlab"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/gitlab"
 )
 
 func TestMergeRequestDowncast(t *testing.T) {

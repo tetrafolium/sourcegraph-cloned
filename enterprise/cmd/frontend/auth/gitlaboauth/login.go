@@ -10,7 +10,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/oauth2"
 
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/gitlab"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/gitlab"
 )
 
 func LoginHandler(config *oauth2.Config, failure http.Handler) http.Handler {

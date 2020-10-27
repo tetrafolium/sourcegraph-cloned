@@ -14,7 +14,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/internal/db/globalstatedb"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/globalstatedb"
 )
 
 var (

@@ -22,9 +22,9 @@ import (
 	"github.com/inconshreveable/log15"
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
-	codeintelMigrations "github.com/tetrafolium/sourcegraph/migrations/codeintel"
-	frontendMigrations "github.com/tetrafolium/sourcegraph/migrations/frontend"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
+	codeintelMigrations "github.com/tetrafolium/sourcegraph-cloned/migrations/codeintel"
+	frontendMigrations "github.com/tetrafolium/sourcegraph-cloned/migrations/frontend"
 )
 
 // Transaction calls f within a transaction, rolling back if any error is

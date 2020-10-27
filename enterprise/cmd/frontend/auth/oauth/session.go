@@ -7,10 +7,10 @@ import (
 
 	goauth2 "github.com/dghubble/gologin/oauth2"
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/auth"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/auth/providers"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/external/session"
-	"github.com/tetrafolium/sourcegraph/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/auth"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/auth/providers"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/external/session"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
 	"golang.org/x/oauth2"
 )
 

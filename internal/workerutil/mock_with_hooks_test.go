@@ -8,7 +8,7 @@ import (
 )
 
 // MockWithHooks is a mock implementation of the WithHooks interface (from
-// the package github.com/tetrafolium/sourcegraph/internal/workerutil) used
+// the package github.com/tetrafolium/sourcegraph-cloned/internal/workerutil) used
 // for unit testing.
 type MockWithHooks struct {
 	// PostHandleFunc is an instance of a mock function object controlling

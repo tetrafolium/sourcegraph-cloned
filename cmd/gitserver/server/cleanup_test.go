@@ -18,7 +18,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver/protocol"
 )
 
 const (

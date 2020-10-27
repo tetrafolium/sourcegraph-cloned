@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
 )
 
 type RepoUpdateSchedulerInfoArgs struct {

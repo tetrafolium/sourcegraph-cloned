@@ -8,10 +8,10 @@ import (
 	"testing"
 
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/auth"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/session"
-	"github.com/tetrafolium/sourcegraph/internal/actor"
-	"github.com/tetrafolium/sourcegraph/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/auth"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/session"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
 )
 
 func TestOverrideAuthMiddleware(t *testing.T) {

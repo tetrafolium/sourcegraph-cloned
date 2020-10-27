@@ -3,8 +3,8 @@ package github
 import (
 	"net/url"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
 )
 
 // ExternalRepoSpec returns an api.ExternalRepoSpec that refers to the specified GitHub repository.

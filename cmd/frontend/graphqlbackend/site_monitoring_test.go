@@ -9,7 +9,7 @@ import (
 	"github.com/pkg/errors"
 	prometheus "github.com/prometheus/client_golang/api/prometheus/v1"
 	"github.com/prometheus/common/model"
-	"github.com/tetrafolium/sourcegraph/internal/prometheusutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/prometheusutil"
 )
 
 func Test_siteMonitoringStatisticsResolver_Alerts(t *testing.T) {

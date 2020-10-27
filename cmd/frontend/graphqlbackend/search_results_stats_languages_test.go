@@ -10,11 +10,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/inventory"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/rcache"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/git"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/inventory"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/rcache"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
 )
 
 func TestSearchResultsStatsLanguages(t *testing.T) {

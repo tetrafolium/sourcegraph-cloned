@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
 
 	"github.com/keegancsmith/sqlf"
 

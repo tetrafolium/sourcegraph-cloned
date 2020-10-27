@@ -4,7 +4,7 @@ package envvar
 import (
 	"strconv"
 
-	"github.com/tetrafolium/sourcegraph/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
 )
 
 var HTTPAddrInternal = env.Get(

@@ -4,14 +4,14 @@ package commits
 
 import (
 	"context"
-	gitserver "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/gitserver"
-	store "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
+	gitserver "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/gitserver"
+	store "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
 	"sync"
 )
 
 // MockGitserverClient is a mock implementation of the gitserverClient
 // interface (from the package
-// github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/commits)
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/commits)
 // used for unit testing.
 type MockGitserverClient struct {
 	// CommitGraphFunc is an instance of a mock function object controlling
@@ -42,7 +42,7 @@ func NewMockGitserverClient() *MockGitserverClient {
 
 // surrogateMockGitserverClient is a copy of the gitserverClient interface
 // (from the package
-// github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/commits).
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/commits).
 // It is redefined here as it is unexported in the source packge.
 type surrogateMockGitserverClient interface {
 	CommitGraph(context.Context, store.Store, int, gitserver.CommitGraphOptions) (map[string][]string, error)

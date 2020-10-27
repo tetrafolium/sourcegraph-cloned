@@ -18,12 +18,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/cmd/searcher/protocol"
-	"github.com/tetrafolium/sourcegraph/cmd/searcher/search"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/store"
-	"github.com/tetrafolium/sourcegraph/internal/testutil"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/searcher/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/searcher/search"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/testutil"
 )
 
 func TestSearch(t *testing.T) {
@@ -75,7 +75,7 @@ main.go:6:	fmt.Println("Hello world")
 main.go:5:func main() {
 `},
 
-		// https://github.com/tetrafolium/sourcegraph/issues/8155
+		// https://github.com/tetrafolium/sourcegraph-cloned/issues/8155
 		{protocol.PatternInfo{Pattern: "^func", IsRegExp: true}, `
 main.go:5:func main() {
 `},

@@ -7,7 +7,7 @@ import (
 	prometheusAPI "github.com/prometheus/client_golang/api"
 	prometheus "github.com/prometheus/client_golang/api/prometheus/v1"
 	"github.com/prometheus/common/model"
-	"github.com/tetrafolium/sourcegraph/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
 )
 
 var PrometheusURL = env.Get("PROMETHEUS_URL", "", "prometheus server URL")

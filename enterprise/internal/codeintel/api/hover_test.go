@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	bundles "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client"
-	bundlemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client/mocks"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
-	storemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store/mocks"
+	bundles "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client"
+	bundlemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client/mocks"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
+	storemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store/mocks"
 )
 
 func TestHover(t *testing.T) {

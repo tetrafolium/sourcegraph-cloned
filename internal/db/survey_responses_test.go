@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/internal/db/dbtesting"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbtesting"
 )
 
 // TestSurveyResponses_Create_Count tests creation and counting of db survey responses

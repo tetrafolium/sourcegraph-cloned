@@ -5,16 +5,16 @@ package mocks
 import (
 	"context"
 	sqlf "github.com/keegancsmith/sqlf"
-	basestore "github.com/tetrafolium/sourcegraph/internal/db/basestore"
-	workerutil "github.com/tetrafolium/sourcegraph/internal/workerutil"
-	store "github.com/tetrafolium/sourcegraph/internal/workerutil/dbworker/store"
+	basestore "github.com/tetrafolium/sourcegraph-cloned/internal/db/basestore"
+	workerutil "github.com/tetrafolium/sourcegraph-cloned/internal/workerutil"
+	store "github.com/tetrafolium/sourcegraph-cloned/internal/workerutil/dbworker/store"
 	"sync"
 	"time"
 )
 
 // MockStore is a mock implementation of the Store interface (from the
 // package
-// github.com/tetrafolium/sourcegraph/internal/workerutil/dbworker/store)
+// github.com/tetrafolium/sourcegraph-cloned/internal/workerutil/dbworker/store)
 // used for unit testing.
 type MockStore struct {
 	// DequeueFunc is an instance of a mock function object controlling the

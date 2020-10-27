@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/keegancsmith/sqlf"
-	"github.com/tetrafolium/sourcegraph/internal/db/basestore"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/basestore"
 )
 
 // IndexableRepository marks a repository for eligibility to be indexed automatically.

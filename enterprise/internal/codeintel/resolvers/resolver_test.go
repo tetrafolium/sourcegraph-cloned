@@ -4,12 +4,12 @@ import (
 	"context"
 	"testing"
 
-	gql "github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	apimocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/api/mocks"
-	bundlemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client/mocks"
-	storemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store/mocks"
-	"github.com/tetrafolium/sourcegraph/internal/api"
+	gql "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	apimocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/api/mocks"
+	bundlemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client/mocks"
+	storemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store/mocks"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
 )
 
 func TestQueryResolver(t *testing.T) {

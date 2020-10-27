@@ -6,7 +6,7 @@ import (
 
 	"github.com/inconshreveable/log15"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
 
 	"golang.org/x/net/context"
 )

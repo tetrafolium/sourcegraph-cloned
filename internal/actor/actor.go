@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/tetrafolium/sourcegraph/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
 )
 
 // Actor represents an agent that accesses resources. It can represent an anonymous user, an

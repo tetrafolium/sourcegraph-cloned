@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
 )
 
 func TestErrorsInterface(t *testing.T) {

@@ -5,7 +5,7 @@ package goroutine
 import "sync"
 
 // MockErrorHandler is a mock implementation of the ErrorHandler interface
-// (from the package github.com/tetrafolium/sourcegraph/internal/goroutine)
+// (from the package github.com/tetrafolium/sourcegraph-cloned/internal/goroutine)
 // used for unit testing.
 type MockErrorHandler struct {
 	// HandleErrorFunc is an instance of a mock function object controlling

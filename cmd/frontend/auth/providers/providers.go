@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 // A Provider represents a user authentication provider (which provides functionality related to

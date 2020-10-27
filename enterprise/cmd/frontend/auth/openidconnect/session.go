@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/auth/providers"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/external/session"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/auth/providers"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/external/session"
 )
 
 const sessionKey = "oidc@0"

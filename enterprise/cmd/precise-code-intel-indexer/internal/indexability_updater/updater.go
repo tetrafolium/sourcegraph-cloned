@@ -8,10 +8,10 @@ import (
 
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-indexer/internal/inference"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
-	"github.com/tetrafolium/sourcegraph/internal/goroutine"
-	"github.com/tetrafolium/sourcegraph/internal/vcs"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-indexer/internal/inference"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/goroutine"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs"
 	"golang.org/x/time/rate"
 )
 
@@ -157,7 +157,7 @@ func isRepoNotExist(err error) bool {
 // Below is a list of repository IDs marked with the name of the repo:
 // see https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/5d7dce1a56e799c6b8167ee58c2c68ac25c67ee1/base/frontend/sourcegraph-frontend.ConfigMap.yaml#L4957
 //
-// Follow-up issue: https://github.com/tetrafolium/sourcegraph/issues/14343
+// Follow-up issue: https://github.com/tetrafolium/sourcegraph-cloned/issues/14343
 
 var cncfRepositoryIDs = []int{
 	480,      // github.com/prometheus/prometheus

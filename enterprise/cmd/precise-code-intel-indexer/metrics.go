@@ -5,7 +5,7 @@ import (
 
 	"github.com/inconshreveable/log15"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
 )
 
 // MustRegisterQueueMonitor emits a metric for the current queue size.

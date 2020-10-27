@@ -8,7 +8,7 @@ import (
 
 	"cloud.google.com/go/pubsub"
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
 )
 
 // PubSubProjectID is used to create a new pubsub client.

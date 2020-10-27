@@ -10,11 +10,11 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws/defaults"
 	"github.com/aws/aws-sdk-go-v2/aws/endpoints"
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/internal/conf/reposource"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/awscodecommit"
-	"github.com/tetrafolium/sourcegraph/internal/httpcli"
-	"github.com/tetrafolium/sourcegraph/internal/jsonc"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf/reposource"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/awscodecommit"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/httpcli"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/jsonc"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 	"golang.org/x/net/http2"
 )
 
@@ -244,6 +244,6 @@ func (t stubBadHTTPRedirectTransport) RoundTrip(r *http.Request) (*http.Response
 
 // UnwrappableTransport signals that this transport can't be wrapped. In
 // particular this means we won't respect global external
-// settings. https://github.com/tetrafolium/sourcegraph/issues/71 and
-// https://github.com/tetrafolium/sourcegraph/issues/7738
+// settings. https://github.com/tetrafolium/sourcegraph-cloned/issues/71 and
+// https://github.com/tetrafolium/sourcegraph-cloned/issues/7738
 func (stubBadHTTPRedirectTransport) UnwrappableTransport() {}

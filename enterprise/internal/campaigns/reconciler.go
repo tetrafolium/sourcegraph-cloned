@@ -11,16 +11,16 @@ import (
 
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/repos"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/campaigns"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver/protocol"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/git"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil/dbworker"
-	dbworkerstore "github.com/tetrafolium/sourcegraph/internal/workerutil/dbworker/store"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/repos"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil/dbworker"
+	dbworkerstore "github.com/tetrafolium/sourcegraph-cloned/internal/workerutil/dbworker/store"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 type GitserverClient interface {

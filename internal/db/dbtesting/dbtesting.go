@@ -15,8 +15,8 @@ import (
 	"testing"
 
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbutil"
 )
 
 // MockHashPassword if non-nil is used instead of db.hashPassword. This is useful
@@ -54,7 +54,7 @@ var (
 // SetupGlobalTestDB creates a temporary test DB handle, sets
 // `dbconn.Global` to it and setups other test configuration.
 //
-// Callers (other than github.com/tetrafolium/sourcegraph/internal/db) must
+// Callers (other than github.com/tetrafolium/sourcegraph-cloned/internal/db) must
 // set a name in this package's DBNameSuffix var that is unique among all other
 // test packages that call SetupGlobalTestDB, so that each package's
 // tests run in separate DBs and do not conflict.

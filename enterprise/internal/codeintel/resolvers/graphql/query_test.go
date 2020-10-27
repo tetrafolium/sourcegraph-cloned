@@ -5,10 +5,10 @@ import (
 	"encoding/base64"
 	"testing"
 
-	gql "github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend/graphqlutil"
-	bundles "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client"
-	resolvermocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/resolvers/mocks"
+	gql "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend/graphqlutil"
+	bundles "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client"
+	resolvermocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/resolvers/mocks"
 )
 
 func TestRanges(t *testing.T) {

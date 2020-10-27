@@ -8,9 +8,9 @@ import (
 
 	"strconv"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/app/assetsutil"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/app/assetsutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
 )
 
 var allowRobotsVar = env.Get("ROBOTS_TXT_ALLOW", "false", "allow search engines to index the site")

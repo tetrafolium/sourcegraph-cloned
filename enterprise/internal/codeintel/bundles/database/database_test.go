@@ -8,11 +8,11 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	bundles "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client_types"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/cache"
-	sqlitereader "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/sqlite"
-	"github.com/tetrafolium/sourcegraph/internal/observation"
-	"github.com/tetrafolium/sourcegraph/internal/sqliteutil"
+	bundles "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client_types"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/cache"
+	sqlitereader "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/sqlite"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/observation"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/sqliteutil"
 )
 
 func init() {

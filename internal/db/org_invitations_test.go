@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/internal/db/dbtesting"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbtesting"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
 )
 
 // 🚨 SECURITY: This tests the routine that creates org invitations and returns the invitation secret value

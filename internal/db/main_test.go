@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/internal/secret"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/secret"
 )
 
 func TestMain(m *testing.M) {

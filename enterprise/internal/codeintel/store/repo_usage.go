@@ -5,7 +5,7 @@ import (
 	"database/sql"
 
 	"github.com/keegancsmith/sqlf"
-	"github.com/tetrafolium/sourcegraph/internal/db/basestore"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/basestore"
 )
 
 // RepoUsageStatistics pairs a repository identifier with a count of code intelligence events.

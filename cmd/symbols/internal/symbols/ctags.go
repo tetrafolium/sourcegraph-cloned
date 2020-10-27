@@ -7,7 +7,7 @@ import (
 	"strconv"
 
 	ctags "github.com/sourcegraph/go-ctags"
-	"github.com/tetrafolium/sourcegraph/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
 )
 
 const debugLogs = false
@@ -17,7 +17,7 @@ var logErrors = os.Getenv("DEPLOY_TYPE") == "dev"
 var ctagsCommand = env.Get("CTAGS_COMMAND", "universal-ctags", "ctags command (should point to universal-ctags executable compiled with JSON and seccomp support)")
 
 // Increasing this value may increase the size of the symbols cache, but will also stop long lines containing symbols from
-// being highlighted improperly. See https://github.com/tetrafolium/sourcegraph/issues/7668.
+// being highlighted improperly. See https://github.com/tetrafolium/sourcegraph-cloned/issues/7668.
 var rawPatternLengthLimit = env.Get("CTAGS_PATTERN_LENGTH_LIMIT", "250", "the maximum length of the patterns output by ctags")
 
 // New runs the ctags command from the CTAGS_COMMAND environment

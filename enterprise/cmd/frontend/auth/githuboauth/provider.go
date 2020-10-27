@@ -5,11 +5,11 @@ import (
 	"net/url"
 
 	"github.com/dghubble/gologin/github"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/envvar"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/frontend/auth/oauth"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/lazyregexp"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/envvar"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/frontend/auth/oauth"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/lazyregexp"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 	"golang.org/x/oauth2"
 )
 

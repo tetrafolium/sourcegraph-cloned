@@ -13,7 +13,7 @@ import (
 const concurrency = 50
 const ignoreDescendantImports = true
 const ignoreSiblingDescendantImports = true
-const root = "github.com/tetrafolium/sourcegraph/enterprise/cmd"
+const root = "github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd"
 
 func main() {
 	if err := mainErr(); err != nil {

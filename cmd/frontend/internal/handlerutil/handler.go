@@ -14,7 +14,7 @@ import (
 
 	"github.com/neelance/parallel"
 
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
 )
 
 // HandlerWithErrorReturn wraps a http.HandlerFunc-like func that also

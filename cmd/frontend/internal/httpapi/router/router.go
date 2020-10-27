@@ -3,7 +3,7 @@ package router
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/tetrafolium/sourcegraph/internal/routevar"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/routevar"
 )
 
 const (

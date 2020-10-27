@@ -3,8 +3,8 @@ package db
 import (
 	"context"
 
-	"github.com/tetrafolium/sourcegraph/internal/authz"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/authz"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
 )
 
 type MockPerms struct {

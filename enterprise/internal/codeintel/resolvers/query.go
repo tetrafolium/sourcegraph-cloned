@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 
-	codeintelapi "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/api"
-	bundles "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
+	codeintelapi "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/api"
+	bundles "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
 )
 
 // AdjustedLocation is similar to a codeintelapi.ResolvedLocation, but with fields denoting

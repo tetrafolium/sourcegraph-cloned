@@ -21,14 +21,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/repos"
-	ct "github.com/tetrafolium/sourcegraph/enterprise/internal/campaigns/testing"
-	"github.com/tetrafolium/sourcegraph/internal/campaigns"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/httptestutil"
-	"github.com/tetrafolium/sourcegraph/internal/rcache"
-	"github.com/tetrafolium/sourcegraph/internal/repoupdater/protocol"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/repos"
+	ct "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/campaigns/testing"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/httptestutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/rcache"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/repoupdater/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 var update = flag.Bool("update", false, "update testdata")

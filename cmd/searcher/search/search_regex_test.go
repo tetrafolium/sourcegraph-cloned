@@ -14,11 +14,11 @@ import (
 	"testing/iotest"
 	"testing/quick"
 
-	"github.com/tetrafolium/sourcegraph/cmd/searcher/protocol"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/pathmatch"
-	"github.com/tetrafolium/sourcegraph/internal/store"
-	"github.com/tetrafolium/sourcegraph/internal/testutil"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/searcher/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/pathmatch"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/testutil"
 )
 
 func benchBytesToLower(b *testing.B, src []byte) {

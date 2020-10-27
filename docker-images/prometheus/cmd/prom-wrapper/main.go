@@ -17,7 +17,7 @@ import (
 	"github.com/inconshreveable/log15"
 
 	amclient "github.com/prometheus/alertmanager/api/v2/client"
-	"github.com/tetrafolium/sourcegraph/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
 )
 
 // prom-wrapper configuration options

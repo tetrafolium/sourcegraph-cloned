@@ -9,9 +9,9 @@ import (
 	"github.com/inconshreveable/log15"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/handlerutil"
-	"github.com/tetrafolium/sourcegraph/internal/env"
-	"github.com/tetrafolium/sourcegraph/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/handlerutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
 )
 
 // Handler is a wrapper func for app HTTP handlers that enables app

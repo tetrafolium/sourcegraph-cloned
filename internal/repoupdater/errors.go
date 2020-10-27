@@ -3,7 +3,7 @@ package repoupdater
 import (
 	"fmt"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
 )
 
 // ErrNotFound is an error that occurs when a Repo doesn't exist.

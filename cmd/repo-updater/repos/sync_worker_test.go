@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/repos"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil"
-	dbws "github.com/tetrafolium/sourcegraph/internal/workerutil/dbworker/store"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/repos"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil"
+	dbws "github.com/tetrafolium/sourcegraph-cloned/internal/workerutil/dbworker/store"
 )
 
 func testSyncWorkerPlumbing(db *sql.DB) func(t *testing.T, repoStore repos.Store) func(t *testing.T) {

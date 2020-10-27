@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
 )
 
 var (

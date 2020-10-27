@@ -7,9 +7,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/sourcegraph/campaignutils/overridable"
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/repos"
-	"github.com/tetrafolium/sourcegraph/internal/campaigns"
-	cmpgn "github.com/tetrafolium/sourcegraph/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/repos"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
+	cmpgn "github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
 )
 
 func testStoreCampaignSpecs(t *testing.T, ctx context.Context, s *Store, _ repos.Store, clock clock) {

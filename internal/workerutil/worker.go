@@ -8,8 +8,8 @@ import (
 	"github.com/efritz/glock"
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/observation"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/observation"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 )
 
 // Worker is a generic consumer of records from the workerutil store.

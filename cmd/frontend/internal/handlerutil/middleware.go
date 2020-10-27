@@ -26,7 +26,7 @@ func CSRFMiddleware(next http.Handler, isSecure func() bool) http.Handler {
 		// 	* HTTPS: set "SameSite=None" in csrf cookie - users can sign in, and will be able to use the
 		// 			 browser extension.
 		//
-		// See https://github.com/tetrafolium/sourcegraph/issues/6167 for more information.
+		// See https://github.com/tetrafolium/sourcegraph-cloned/issues/6167 for more information.
 		var sameSite = csrf.SameSite(csrf.SameSiteLaxMode)
 		if secure {
 			sameSite = csrf.SameSite(csrf.SameSiteNoneMode)
@@ -36,7 +36,7 @@ func CSRFMiddleware(next http.Handler, isSecure func() bool) http.Handler {
 			[]byte("e953612ddddcdd5ec60d74e07d40218c"),
 			// We do not use the name csrf_token since it is a common name. This
 			// leads to conflicts between apps on localhost. See
-			// https://github.com/tetrafolium/sourcegraph/issues/65
+			// https://github.com/tetrafolium/sourcegraph-cloned/issues/65
 			csrf.CookieName("sg_csrf_token"),
 			csrf.Path("/"),
 			csrf.Secure(secure),

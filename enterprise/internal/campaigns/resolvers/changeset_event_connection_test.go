@@ -8,16 +8,16 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/repos"
-	ee "github.com/tetrafolium/sourcegraph/enterprise/internal/campaigns"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/campaigns/resolvers/apitest"
-	"github.com/tetrafolium/sourcegraph/internal/actor"
-	"github.com/tetrafolium/sourcegraph/internal/campaigns"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbtesting"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/github"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/repos"
+	ee "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/campaigns/resolvers/apitest"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbtesting"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/github"
 )
 
 func TestChangesetEventConnectionResolver(t *testing.T) {

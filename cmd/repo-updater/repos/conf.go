@@ -3,7 +3,7 @@ package repos
 import (
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
 )
 
 func ConfRepoListUpdateInterval() time.Duration {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tetrafolium/sourcegraph/internal/lazyregexp"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/lazyregexp"
 )
 
 // NewGitHubRepoVFS creates a new VFS backed by a GitHub downloadable

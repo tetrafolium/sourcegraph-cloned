@@ -12,12 +12,12 @@ import (
 	"testing"
 
 	ctags "github.com/sourcegraph/go-ctags"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/search"
-	"github.com/tetrafolium/sourcegraph/internal/sqliteutil"
-	symbolsclient "github.com/tetrafolium/sourcegraph/internal/symbols"
-	"github.com/tetrafolium/sourcegraph/internal/symbols/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/sqliteutil"
+	symbolsclient "github.com/tetrafolium/sourcegraph-cloned/internal/symbols"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/symbols/protocol"
 )
 
 func init() {

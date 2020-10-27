@@ -5,10 +5,10 @@ import (
 	"net/url"
 
 	"github.com/dghubble/gologin"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/frontend/auth/oauth"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/frontend/auth/oauth"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 	"golang.org/x/oauth2"
 )
 

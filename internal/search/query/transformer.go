@@ -7,7 +7,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/tetrafolium/sourcegraph/internal/lazyregexp"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/lazyregexp"
 )
 
 // SubstituteAliases substitutes field name aliases for their canonical names.

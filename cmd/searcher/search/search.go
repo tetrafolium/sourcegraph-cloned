@@ -22,10 +22,10 @@ import (
 
 	"github.com/inconshreveable/log15"
 
-	"github.com/tetrafolium/sourcegraph/cmd/searcher/protocol"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/store"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/searcher/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 	nettrace "golang.org/x/net/trace"
 
 	"github.com/pkg/errors"

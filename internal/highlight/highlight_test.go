@@ -30,7 +30,7 @@ func TestPreSpansToTable_Complex(t *testing.T) {
 </span><span style="color:#323232;">
 </span><span style="font-weight:bold;color:#a71d5d;">import </span><span style="color:#323232;">(
 </span><span style="color:#323232;">	</span><span style="color:#183691;">&quot;net/http&quot;
-</span><span style="color:#323232;">	</span><span style="color:#183691;">&quot;github.com/tetrafolium/sourcegraph/internal/api/legacyerr&quot;
+</span><span style="color:#323232;">	</span><span style="color:#183691;">&quot;github.com/tetrafolium/sourcegraph-cloned/internal/api/legacyerr&quot;
 </span><span style="color:#323232;">)
 </span><span style="color:#323232;">
 </span><span style="color:#323232;">
@@ -41,7 +41,7 @@ func TestPreSpansToTable_Complex(t *testing.T) {
 </span></div></td></tr><tr><td class="line" data-line="2"></td><td class="code"><div><span style="color:#323232;">
 </span></div></td></tr><tr><td class="line" data-line="3"></td><td class="code"><div><span style="font-weight:bold;color:#a71d5d;">import </span><span style="color:#323232;">(
 </span></div></td></tr><tr><td class="line" data-line="4"></td><td class="code"><div><span style="color:#323232;">	</span><span style="color:#183691;">&#34;net/http&#34;
-</span></div></td></tr><tr><td class="line" data-line="5"></td><td class="code"><div><span style="color:#323232;">	</span><span style="color:#183691;">&#34;github.com/tetrafolium/sourcegraph/internal/api/legacyerr&#34;
+</span></div></td></tr><tr><td class="line" data-line="5"></td><td class="code"><div><span style="color:#323232;">	</span><span style="color:#183691;">&#34;github.com/tetrafolium/sourcegraph-cloned/internal/api/legacyerr&#34;
 </span></div></td></tr><tr><td class="line" data-line="6"></td><td class="code"><div><span style="color:#323232;">)
 </span></div></td></tr><tr><td class="line" data-line="7"></td><td class="code"><div><span style="color:#323232;">
 </span></div></td></tr><tr><td class="line" data-line="8"></td><td class="code"><div><span style="color:#323232;">
@@ -127,7 +127,7 @@ func TestUnhighlightLongLines_Complex(t *testing.T) {
 </span></div></td></tr><tr><td class="line" data-line="2"></td><td class="code"><div><span style="color:#323232;">
 </span></div></td></tr><tr><td class="line" data-line="3"></td><td class="code"><div><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="font-weight:bold;color:#a71d5d;">spans on uber long lines like this are dropped </span><span style="color:#323232;">spans on uber
 </span></div></td></tr><tr><td class="line" data-line="4"></td><td class="code"><div><span style="color:#323232;">	</span><span style="color:#183691;">&#34;net/http&#34;
-</span></div></td></tr><tr><td class="line" data-line="5"></td><td class="code"><div><span style="color:#323232;">	</span><span style="color:#183691;">&#34;github.com/tetrafolium/sourcegraph/internal/api/legacyerr&#34;
+</span></div></td></tr><tr><td class="line" data-line="5"></td><td class="code"><div><span style="color:#323232;">	</span><span style="color:#183691;">&#34;github.com/tetrafolium/sourcegraph-cloned/internal/api/legacyerr&#34;
 </span></div></td></tr><tr><td class="line" data-line="6"></td><td class="code"><div><span style="color:#323232;">)
 </span></div></td></tr><tr><td class="line" data-line="7"></td><td class="code"><div><span style="color:#323232;">
 </span></div></td></tr><tr><td class="line" data-line="8"></td><td class="code"><div><span style="color:#323232;">
@@ -137,7 +137,7 @@ func TestUnhighlightLongLines_Complex(t *testing.T) {
 </span></div></td></tr><tr><td class="line" data-line="2"></td><td class="code"><div><span style="color:#323232;">
 </span></div></td></tr><tr><td class="line" data-line="3"></td><td class="code"><div><span>spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber long lines like this are dropped spans on uber
 </span></div></td></tr><tr><td class="line" data-line="4"></td><td class="code"><div><span style="color:#323232;">	</span><span style="color:#183691;">&#34;net/http&#34;
-</span></div></td></tr><tr><td class="line" data-line="5"></td><td class="code"><div><span style="color:#323232;">	</span><span style="color:#183691;">&#34;github.com/tetrafolium/sourcegraph/internal/api/legacyerr&#34;
+</span></div></td></tr><tr><td class="line" data-line="5"></td><td class="code"><div><span style="color:#323232;">	</span><span style="color:#183691;">&#34;github.com/tetrafolium/sourcegraph-cloned/internal/api/legacyerr&#34;
 </span></div></td></tr><tr><td class="line" data-line="6"></td><td class="code"><div><span style="color:#323232;">)
 </span></div></td></tr><tr><td class="line" data-line="7"></td><td class="code"><div><span style="color:#323232;">
 </span></div></td></tr><tr><td class="line" data-line="8"></td><td class="code"><div><span style="color:#323232;">
@@ -155,7 +155,7 @@ func TestSplitHighlightedLines(t *testing.T) {
 	input := `<table><tr><td class="line" data-line="1"></td><td class="code"><div><span style="font-weight:bold;color:#a71d5d;">package</span><span style="color:#323232;"> spans on short lines like this are kept
 </span></div></td></tr><tr><td class="line" data-line="2"></td><td class="code"><div><span style="color:#323232;">
 </span></div></td></tr><tr><td class="line" data-line="3"></td><td class="code"><div><span style="color:#323232;">	</span><span style="color:#183691;">&#34;net/http&#34;
-</span></div></td></tr><tr><td class="line" data-line="4"></td><td class="code"><div><span style="color:#323232;">	</span><span style="color:#183691;">&#34;github.com/tetrafolium/sourcegraph/internal/api/legacyerr&#34;
+</span></div></td></tr><tr><td class="line" data-line="4"></td><td class="code"><div><span style="color:#323232;">	</span><span style="color:#183691;">&#34;github.com/tetrafolium/sourcegraph-cloned/internal/api/legacyerr&#34;
 </span></div></td></tr><tr><td class="line" data-line="5"></td><td class="code"><div><span style="color:#323232;">)
 </span></div></td></tr><tr><td class="line" data-line="6"></td><td class="code"><div><span style="color:#323232;">
 </span></div></td></tr><tr><td class="line" data-line="7"></td><td class="code"><div><span style="color:#323232;">
@@ -168,7 +168,7 @@ func TestSplitHighlightedLines(t *testing.T) {
 </span></div>`,
 		`<div><span style="color:#323232;">	</span><span style="color:#183691;">&#34;net/http&#34;
 </span></div>`,
-		`<div><span style="color:#323232;">	</span><span style="color:#183691;">&#34;github.com/tetrafolium/sourcegraph/internal/api/legacyerr&#34;
+		`<div><span style="color:#323232;">	</span><span style="color:#183691;">&#34;github.com/tetrafolium/sourcegraph-cloned/internal/api/legacyerr&#34;
 </span></div>`,
 		`<div><span style="color:#323232;">)
 </span></div>`,

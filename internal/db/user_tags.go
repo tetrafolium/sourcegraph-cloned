@@ -3,7 +3,7 @@ package db
 import (
 	"context"
 
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
 )
 
 // SetTag adds (present=true) or removes (present=false) a tag from the given user's set of tags. An

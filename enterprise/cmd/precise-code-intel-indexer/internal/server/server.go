@@ -1,9 +1,9 @@
 package server
 
 import (
-	indexmanager "github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-indexer/internal/index_manager"
-	"github.com/tetrafolium/sourcegraph/internal/goroutine"
-	"github.com/tetrafolium/sourcegraph/internal/httpserver"
+	indexmanager "github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-indexer/internal/index_manager"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/goroutine"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/httpserver"
 )
 
 const Port = 3189

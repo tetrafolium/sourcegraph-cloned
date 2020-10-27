@@ -12,18 +12,18 @@ import (
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend/externallink"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/phabricator"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver/protocol"
-	"github.com/tetrafolium/sourcegraph/internal/vcs"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/git"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend/externallink"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/phabricator"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 type RepositoryResolverCache map[api.RepoName]*RepositoryResolver
@@ -210,7 +210,7 @@ func (r *RepositoryResolver) DefaultBranch(ctx context.Context) (*GitRefResolver
 func (r *RepositoryResolver) Language(ctx context.Context) string {
 	// The repository language is the most common language at the HEAD commit of the repository.
 	// Note: the repository database field is no longer updated as of
-	// https://github.com/tetrafolium/sourcegraph/issues/2586, so we do not use it anymore and
+	// https://github.com/tetrafolium/sourcegraph-cloned/issues/2586, so we do not use it anymore and
 	// instead compute the language on the fly.
 
 	commitID, err := backend.Repos.ResolveRev(ctx, r.repo, "")
@@ -233,7 +233,7 @@ func (r *RepositoryResolver) Enabled() bool { return true }
 // No clients that we know of read this field. Additionally on performance profiles
 // the marshalling of timestamps is significant in our postgres client. So we
 // deprecate the fields and return fake data for created_at.
-// https://github.com/tetrafolium/sourcegraph/pull/4668
+// https://github.com/tetrafolium/sourcegraph-cloned/pull/4668
 func (r *RepositoryResolver) CreatedAt() DateTime {
 	return DateTime{Time: time.Now()}
 }

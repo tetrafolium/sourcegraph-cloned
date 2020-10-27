@@ -2,8 +2,8 @@ package awscodecommit
 
 import (
 	"github.com/aws/aws-sdk-go-v2/aws/endpoints"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
 )
 
 // ExternalRepoSpec returns an api.ExternalRepoSpec that refers to the specified AWS

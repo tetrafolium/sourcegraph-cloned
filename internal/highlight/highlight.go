@@ -16,9 +16,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/sourcegraph/gosyntect"
-	"github.com/tetrafolium/sourcegraph/internal/env"
-	"github.com/tetrafolium/sourcegraph/internal/trace"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"
 )
@@ -143,7 +143,7 @@ func Code(ctx context.Context, p Params) (h template.HTML, aborted bool, err err
 	// newline.
 	//
 	// This matches other online code reading tools such as e.g. GitHub; see
-	// https://github.com/tetrafolium/sourcegraph/issues/8024 for more
+	// https://github.com/tetrafolium/sourcegraph-cloned/issues/8024 for more
 	// background.
 	code = strings.TrimSuffix(code, "\n")
 
@@ -410,7 +410,7 @@ func generatePlainTable(code string) (template.HTML, error) {
 // And the returned HTML has all <span> tags removed from lines whose length
 // are > N bytes.
 //
-// See https://github.com/tetrafolium/sourcegraph/issues/6489
+// See https://github.com/tetrafolium/sourcegraph-cloned/issues/6489
 func unhighlightLongLines(h string, n int) (string, error) {
 	doc, err := html.Parse(strings.NewReader(h))
 	if err != nil {

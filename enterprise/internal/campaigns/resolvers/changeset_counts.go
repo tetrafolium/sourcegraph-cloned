@@ -1,8 +1,8 @@
 package resolvers
 
 import (
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	ee "github.com/tetrafolium/sourcegraph/enterprise/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	ee "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/campaigns"
 )
 
 type changesetCountsResolver struct {

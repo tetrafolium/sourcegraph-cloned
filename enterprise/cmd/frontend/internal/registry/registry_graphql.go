@@ -5,12 +5,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	frontendregistry "github.com/tetrafolium/sourcegraph/cmd/frontend/registry"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/frontend/internal/licensing"
-	"github.com/tetrafolium/sourcegraph/internal/actor"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	frontendregistry "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/registry"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/frontend/internal/licensing"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
 )
 
 func init() {

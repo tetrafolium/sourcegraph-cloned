@@ -1,8 +1,8 @@
 package conf
 
 import (
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/envvar"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/envvar"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 // AuthProviderType returns the type string for the auth provider.

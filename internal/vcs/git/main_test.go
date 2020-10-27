@@ -19,9 +19,9 @@ import (
 	"time"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/cmd/gitserver/server"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/gitserver/server"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
 )
 
 var root string

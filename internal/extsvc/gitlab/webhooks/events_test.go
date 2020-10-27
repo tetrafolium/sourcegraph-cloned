@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/gitlab"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/gitlab"
 )
 
 func TestUnmarshalEvent(t *testing.T) {

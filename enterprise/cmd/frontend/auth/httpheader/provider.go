@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/textproto"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/auth/providers"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/auth/providers"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 type provider struct {

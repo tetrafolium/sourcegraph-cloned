@@ -8,10 +8,10 @@ import (
 
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/bitbucketserver"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/github"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/gitlab"
-	gitlabwebhooks "github.com/tetrafolium/sourcegraph/internal/extsvc/gitlab/webhooks"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/bitbucketserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/github"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/gitlab"
+	gitlabwebhooks "github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/gitlab/webhooks"
 )
 
 type changesetEventUpdateMismatchError struct {

@@ -3,8 +3,8 @@ package userpasswd
 import (
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 func TestValidateCustom(t *testing.T) {

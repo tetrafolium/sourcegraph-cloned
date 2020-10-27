@@ -1,4 +1,4 @@
-module github.com/tetrafolium/sourcegraph
+module github.com/tetrafolium/sourcegraph-cloned
 
 go 1.14
 

@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/tetrafolium/sourcegraph/internal/actor"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
 )
 
 func (r *UserResolver) Session(ctx context.Context) (*sessionResolver, error) {

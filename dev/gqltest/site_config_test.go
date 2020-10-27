@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/internal/gqltestutil"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gqltestutil"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 func TestSiteConfig(t *testing.T) {

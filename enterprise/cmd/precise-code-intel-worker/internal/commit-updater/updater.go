@@ -6,9 +6,9 @@ import (
 
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/commits"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
-	"github.com/tetrafolium/sourcegraph/internal/goroutine"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/commits"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/goroutine"
 )
 
 // Updater periodically re-calculates the commit and upload visibility graph for repositories

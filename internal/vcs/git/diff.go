@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/sourcegraph/go-diff/diff"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
 )
 
 type DiffOptions struct {

@@ -8,9 +8,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/envvar"
-	"github.com/tetrafolium/sourcegraph/internal/hubspot"
-	"github.com/tetrafolium/sourcegraph/internal/hubspot/hubspotutil"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/envvar"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/hubspot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/hubspot/hubspotutil"
 )
 
 // SyncUser handles creating or syncing a user profile in HubSpot, and if provided,

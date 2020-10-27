@@ -10,12 +10,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/auth/providers"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/external/session"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/frontend/auth/oauth"
-	"github.com/tetrafolium/sourcegraph/internal/actor"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/auth/providers"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/external/session"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/frontend/auth/oauth"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 // TestMiddleware exercises the Middleware with requests that simulate the OAuth 2 login flow on

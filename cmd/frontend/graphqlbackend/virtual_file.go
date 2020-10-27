@@ -8,8 +8,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend/externallink"
-	"github.com/tetrafolium/sourcegraph/internal/highlight"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend/externallink"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/highlight"
 )
 
 // FileContentFunc is a closure that returns the contents of a file and is used by the VirtualFileResolver.

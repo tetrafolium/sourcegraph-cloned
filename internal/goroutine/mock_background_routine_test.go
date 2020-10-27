@@ -6,7 +6,7 @@ import "sync"
 
 // MockBackgroundRoutine is a mock implementation of the BackgroundRoutine
 // interface (from the package
-// github.com/tetrafolium/sourcegraph/internal/goroutine) used for unit
+// github.com/tetrafolium/sourcegraph-cloned/internal/goroutine) used for unit
 // testing.
 type MockBackgroundRoutine struct {
 	// StartFunc is an instance of a mock function object controlling the

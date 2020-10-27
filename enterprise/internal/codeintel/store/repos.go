@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/keegancsmith/sqlf"
-	"github.com/tetrafolium/sourcegraph/internal/db/basestore"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/basestore"
 )
 
 // RepoName returns the name for the repo with the given identifier.

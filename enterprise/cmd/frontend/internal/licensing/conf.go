@@ -1,7 +1,7 @@
 package licensing
 
 import (
-	"github.com/tetrafolium/sourcegraph/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
 )
 
 func init() {

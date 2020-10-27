@@ -11,8 +11,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stripe/stripe-go"
 	"github.com/stripe/stripe-go/customer"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
 )
 
 // GetOrAssignUserCustomerID returns the billing customer ID associated with the user. If no billing

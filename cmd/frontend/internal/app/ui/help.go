@@ -6,8 +6,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/envvar"
-	"github.com/tetrafolium/sourcegraph/internal/version"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/envvar"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/version"
 )
 
 // serveHelp redirects to documentation pages on https://docs.sourcegraph.com for the current

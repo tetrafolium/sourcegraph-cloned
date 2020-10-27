@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/tetrafolium/sourcegraph/internal/search/query/syntax"
-	"github.com/tetrafolium/sourcegraph/internal/search/query/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search/query/syntax"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search/query/types"
 )
 
 type ExpectedOperand struct {

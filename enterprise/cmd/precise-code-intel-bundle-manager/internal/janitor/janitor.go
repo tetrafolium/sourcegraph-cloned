@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-bundle-manager/internal/paths"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/lsifstore"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
-	"github.com/tetrafolium/sourcegraph/internal/goroutine"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-bundle-manager/internal/paths"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/lsifstore"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/goroutine"
 )
 
 type Janitor struct {

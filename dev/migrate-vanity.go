@@ -19,7 +19,7 @@ import (
 	"golang.org/x/tools/imports"
 
 	"github.com/fatih/astrewrite"
-	"github.com/tetrafolium/sourcegraph/internal/lazyregexp"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/lazyregexp"
 )
 
 var vendorRe = lazyregexp.New(`(/|^)vendor/`)

@@ -5,7 +5,7 @@ import (
 	"errors"
 
 	"github.com/graph-gophers/graphql-go"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend/graphqlutil"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend/graphqlutil"
 )
 
 // Dotcom is the implementation of the GraphQL type DotcomMutation. If it is not set at runtime, a

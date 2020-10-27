@@ -17,8 +17,8 @@ import (
 	"github.com/gomodule/redigo/redis"
 	"github.com/inconshreveable/log15"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/redispool"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/redispool"
 )
 
 var (

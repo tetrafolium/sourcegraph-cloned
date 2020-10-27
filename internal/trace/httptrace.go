@@ -18,11 +18,11 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/repotrackutil"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
-	"github.com/tetrafolium/sourcegraph/internal/version"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/repotrackutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/version"
 )
 
 type key int

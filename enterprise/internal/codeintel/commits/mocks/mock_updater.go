@@ -4,13 +4,13 @@ package mocks
 
 import (
 	"context"
-	commits "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/commits"
+	commits "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/commits"
 	"sync"
 )
 
 // MockUpdater is a mock implementation of the Updater interface (from the
 // package
-// github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/commits)
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/commits)
 // used for unit testing.
 type MockUpdater struct {
 	// TryUpdateFunc is an instance of a mock function object controlling

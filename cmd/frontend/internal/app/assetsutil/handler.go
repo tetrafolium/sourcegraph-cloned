@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/shurcooL/httpgzip"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/app/assets"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/app/assets"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
 )
 
 // Mount mounts the static asset handler.

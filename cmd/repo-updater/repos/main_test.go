@@ -8,7 +8,7 @@ import (
 
 	"github.com/inconshreveable/log15"
 
-	"github.com/tetrafolium/sourcegraph/internal/secret"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/secret"
 )
 
 var updateRegex = flag.String("update", "", "Update testdata of tests matching the given regex")

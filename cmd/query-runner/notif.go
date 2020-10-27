@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
 )
 
 // recipientSpec identifies a recipient of a saved search notification. Exactly one of its fields is

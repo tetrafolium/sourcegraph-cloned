@@ -19,19 +19,19 @@ import (
 	"strings"
 
 	"github.com/sourcegraph/ctxvfs"
-	"github.com/tetrafolium/sourcegraph/internal/gituri"
-	"github.com/tetrafolium/sourcegraph/internal/httpcli"
-	"github.com/tetrafolium/sourcegraph/internal/lazyregexp"
-	"github.com/tetrafolium/sourcegraph/internal/vfsutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gituri"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/httpcli"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/lazyregexp"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vfsutil"
 	"golang.org/x/tools/go/buildutil"
 
 	"github.com/sourcegraph/go-lsp"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
-	"github.com/tetrafolium/sourcegraph/internal/gosrc"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gosrc"
 )
 
 // serveGoSymbolURL handles Go symbol URLs (e.g.,

@@ -7,16 +7,16 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/repos"
-	ee "github.com/tetrafolium/sourcegraph/enterprise/internal/campaigns"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/campaigns/resolvers/apitest"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/campaigns"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbtesting"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/github"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/repos"
+	ee "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/campaigns/resolvers/apitest"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbtesting"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/github"
 )
 
 func TestChangesetResolver(t *testing.T) {
@@ -106,7 +106,7 @@ func TestChangesetResolver(t *testing.T) {
 			Body:        "GitHub PR Body",
 			Number:      12345,
 			State:       "OPEN",
-			URL:         "https://github.com/tetrafolium/sourcegraph/pull/12345",
+			URL:         "https://github.com/tetrafolium/sourcegraph-cloned/pull/12345",
 			HeadRefName: "open-pr",
 			HeadRefOid:  headRev,
 			BaseRefOid:  baseRev,
@@ -239,7 +239,7 @@ func TestChangesetResolver(t *testing.T) {
 				NextSyncAt:    marshalDateTime(t, now.Add(8*time.Hour)),
 				Repository:    apitest.Repository{Name: repo.Name},
 				ExternalURL: apitest.ExternalURL{
-					URL:         "https://github.com/tetrafolium/sourcegraph/pull/12345",
+					URL:         "https://github.com/tetrafolium/sourcegraph-cloned/pull/12345",
 					ServiceType: "github",
 				},
 				PublicationState: string(campaigns.ChangesetPublicationStatePublished),

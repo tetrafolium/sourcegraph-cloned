@@ -9,7 +9,7 @@ import (
 
 	"github.com/Masterminds/semver"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/linkheader"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/linkheader"
 )
 
 type releaseMeta struct {

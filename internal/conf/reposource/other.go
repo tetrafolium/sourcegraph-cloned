@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 type urlMismatchErr struct {

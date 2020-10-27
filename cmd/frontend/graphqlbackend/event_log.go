@@ -3,8 +3,8 @@ package graphqlbackend
 import (
 	"context"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
 )
 
 type userEventLogResolver struct {

@@ -5,7 +5,7 @@
 // pkg/db/confdb, which we have a linter to protect against.
 package confdefaults
 
-import "github.com/tetrafolium/sourcegraph/internal/conf/conftypes"
+import "github.com/tetrafolium/sourcegraph-cloned/internal/conf/conftypes"
 
 // TODO(slimsag): consider moving these into actual json files for improved
 // editing.

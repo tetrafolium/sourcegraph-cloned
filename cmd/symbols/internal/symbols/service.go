@@ -10,9 +10,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	ctags "github.com/sourcegraph/go-ctags"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/diskcache"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/diskcache"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
 )
 
 // Service is the symbols service.

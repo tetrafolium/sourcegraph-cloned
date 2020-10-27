@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/keegancsmith/sqlf"
-	"github.com/tetrafolium/sourcegraph/internal/db/basestore"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/basestore"
 )
 
 // Dump is a subset of the lsif_uploads table (queried via the lsif_dumps_with_repository_name view)

@@ -3,7 +3,7 @@
 package main
 
 import (
-	"github.com/tetrafolium/sourcegraph/cmd/repo-updater/shared"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/repo-updater/shared"
 )
 
 func main() {

@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/tetrafolium/sourcegraph/internal/search/query/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search/query/types"
 )
 
 func TestQuery_IsCaseSensitive(t *testing.T) {

@@ -11,7 +11,7 @@ import (
 	"github.com/jordan-wright/email"
 	"github.com/microcosm-cc/bluemonday"
 	gfm "github.com/shurcooL/github_flavored_markdown"
-	"github.com/tetrafolium/sourcegraph/internal/txemail/txtypes"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/txemail/txtypes"
 )
 
 // MustParseTemplate calls ParseTemplate and panics if an error is returned.

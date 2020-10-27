@@ -6,14 +6,14 @@ import (
 	"context"
 	"sync"
 
-	api "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/api"
-	clienttypes "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client_types"
-	store "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
+	api "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/api"
+	clienttypes "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client_types"
+	store "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
 )
 
 // MockCodeIntelAPI is a mock implementation of the CodeIntelAPI interface
 // (from the package
-// github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/api)
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/api)
 // used for unit testing.
 type MockCodeIntelAPI struct {
 	// DefinitionsFunc is an instance of a mock function object controlling

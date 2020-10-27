@@ -5,15 +5,15 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-worker/internal/metrics"
-	bundles "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/postgres"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
-	"github.com/tetrafolium/sourcegraph/internal/actor"
-	"github.com/tetrafolium/sourcegraph/internal/observation"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil/dbworker"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-worker/internal/metrics"
+	bundles "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/postgres"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/observation"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil/dbworker"
 )
 
 func NewWorker(

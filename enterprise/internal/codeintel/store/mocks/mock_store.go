@@ -4,16 +4,16 @@ package mocks
 
 import (
 	"context"
-	types "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/types"
-	store "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
-	basestore "github.com/tetrafolium/sourcegraph/internal/db/basestore"
+	types "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/types"
+	store "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
+	basestore "github.com/tetrafolium/sourcegraph-cloned/internal/db/basestore"
 	"sync"
 	"time"
 )
 
 // MockStore is a mock implementation of the Store interface (from the
 // package
-// github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store)
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store)
 // used for unit testing.
 type MockStore struct {
 	// AddUploadPartFunc is an instance of a mock function object

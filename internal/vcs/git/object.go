@@ -7,8 +7,8 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 )
 
 // OID is a Git OID (40-char hex-encoded).

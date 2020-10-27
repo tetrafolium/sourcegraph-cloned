@@ -11,8 +11,8 @@ import (
 
 	"github.com/keegancsmith/sqlf"
 	"github.com/sourcegraph/jsonx"
-	"github.com/tetrafolium/sourcegraph/internal/conf/confdefaults"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf/confdefaults"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
 )
 
 // SiteConfig contains the contents of a site config along with associated metadata.

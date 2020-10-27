@@ -3,7 +3,7 @@ package github
 import (
 	"context"
 
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/github"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/github"
 )
 
 // client defines the set of GitHub API client methods used by the authz provider.

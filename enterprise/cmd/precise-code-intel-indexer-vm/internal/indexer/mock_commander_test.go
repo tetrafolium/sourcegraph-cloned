@@ -9,7 +9,7 @@ import (
 
 // MockCommander is a mock implementation of the Commander interface (from
 // the package
-// github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-indexer-vm/internal/indexer)
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-indexer-vm/internal/indexer)
 // used for unit testing.
 type MockCommander struct {
 	// RunFunc is an instance of a mock function object controlling the

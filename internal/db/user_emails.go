@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/keegancsmith/sqlf"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
-	"github.com/tetrafolium/sourcegraph/internal/db/globalstatedb"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/globalstatedb"
 )
 
 // UserEmail represents a row in the `user_emails` table.

@@ -16,12 +16,12 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	bundlemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client/mocks"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
-	storemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store/mocks"
-	"github.com/tetrafolium/sourcegraph/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	bundlemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client/mocks"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
+	storemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store/mocks"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
 )
 
 func TestMain(m *testing.M) {

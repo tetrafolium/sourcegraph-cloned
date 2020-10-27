@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 type BitbucketServerConnection struct {

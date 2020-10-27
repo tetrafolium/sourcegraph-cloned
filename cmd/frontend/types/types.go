@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
 )
 
 // RepoFields are lazy loaded data fields on a Repo (from the DB).

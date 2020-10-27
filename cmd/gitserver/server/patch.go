@@ -15,7 +15,7 @@ import (
 
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver/protocol"
 )
 
 var patchID uint64

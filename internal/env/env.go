@@ -82,7 +82,7 @@ func init() {
 // package initialization. Calls at a later point will cause a panic if Lock was called before.
 //
 // This should be used for only *internal* environment values. User-visible configuration should be
-// added to the Config struct in the github.com/tetrafolium/sourcegraph/config package.
+// added to the Config struct in the github.com/tetrafolium/sourcegraph-cloned/config package.
 func Get(name, defaultValue, description string) string {
 	if locked {
 		panic("env.Get has to be called on package initialization")

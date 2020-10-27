@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	bundles "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/gitserver"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
+	bundles "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
 )
 
 // CodeIntelAPI is the main interface into precise code intelligence data.

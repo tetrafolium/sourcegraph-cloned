@@ -8,7 +8,7 @@ import (
 
 	"github.com/stripe/stripe-go"
 	"github.com/stripe/stripe-go/plan"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
 )
 
 // productPlan implements the GraphQL type ProductPlan.

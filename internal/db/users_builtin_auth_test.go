@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/internal/db/dbtesting"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbtesting"
 )
 
 func TestUsers_BuiltinAuth(t *testing.T) {

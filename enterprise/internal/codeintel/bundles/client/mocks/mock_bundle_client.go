@@ -6,13 +6,13 @@ import (
 	"context"
 	"sync"
 
-	client "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client"
-	clienttypes "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client_types"
+	client "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client"
+	clienttypes "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client_types"
 )
 
 // MockBundleClient is a mock implementation of the BundleClient interface
 // (from the package
-// github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client)
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client)
 // used for unit testing.
 type MockBundleClient struct {
 	// DefinitionsFunc is an instance of a mock function object controlling

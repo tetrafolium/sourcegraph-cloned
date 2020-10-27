@@ -5,12 +5,12 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	codeintelapi "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/api"
-	apimocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/api/mocks"
-	bundles "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client"
-	bundlemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client/mocks"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
-	storemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store/mocks"
+	codeintelapi "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/api"
+	apimocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/api/mocks"
+	bundles "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client"
+	bundlemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client/mocks"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
+	storemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store/mocks"
 )
 
 func TestRanges(t *testing.T) {

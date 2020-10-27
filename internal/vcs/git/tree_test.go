@@ -10,8 +10,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
 )
 
 func TestRepository_FileSystem_Symlinks(t *testing.T) {

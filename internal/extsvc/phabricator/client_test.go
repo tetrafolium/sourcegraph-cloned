@@ -17,9 +17,9 @@ import (
 	"github.com/dnaeon/go-vcr/cassette"
 	"github.com/google/go-cmp/cmp"
 	"github.com/sergi/go-diff/diffmatchpatch"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/phabricator"
-	"github.com/tetrafolium/sourcegraph/internal/httpcli"
-	"github.com/tetrafolium/sourcegraph/internal/httptestutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/phabricator"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/httpcli"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/httptestutil"
 )
 
 var update = flag.Bool("update", false, "update testdata")

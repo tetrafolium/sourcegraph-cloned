@@ -18,9 +18,9 @@ import (
 
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver/protocol"
 )
 
 // GitDir is an absolute path to a GIT_DIR.
@@ -413,7 +413,7 @@ func newFlushingResponseWriter(w http.ResponseWriter) *flushingResponseWriter {
 // hackilyGetHTTPFlusher attempts to get an http.Flusher from w. It (hackily) handles the case where w is a
 // nethttp.statusCodeTracker (which wraps http.ResponseWriter and does not implement http.Flusher). See
 // https://github.com/opentracing-contrib/go-stdlib/pull/11#discussion_r164295773 and
-// https://github.com/tetrafolium/sourcegraph/issues/9045.
+// https://github.com/tetrafolium/sourcegraph-cloned/issues/9045.
 //
 // I (@sqs) wrote this hack instead of fixing it upstream immediately because seems to be some reluctance to merge
 // a fix (because it'd make the http.ResponseWriter falsely appear to implement many interfaces that it doesn't

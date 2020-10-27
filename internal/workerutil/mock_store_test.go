@@ -8,7 +8,7 @@ import (
 )
 
 // MockStore is a mock implementation of the Store interface (from the
-// package github.com/tetrafolium/sourcegraph/internal/workerutil) used for
+// package github.com/tetrafolium/sourcegraph-cloned/internal/workerutil) used for
 // unit testing.
 type MockStore struct {
 	// DequeueFunc is an instance of a mock function object controlling the

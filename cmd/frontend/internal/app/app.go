@@ -5,16 +5,16 @@ import (
 
 	"github.com/NYTimes/gziphandler"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/envvar"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/auth/userpasswd"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/registry"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/envvar"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/auth/userpasswd"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/registry"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/globals"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/app/errorutil"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/app/router"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/app/ui"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/session"
-	"github.com/tetrafolium/sourcegraph/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/globals"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/app/errorutil"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/app/router"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/app/ui"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/session"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
 )
 
 // NewHandler returns a new app handler that uses the app router.

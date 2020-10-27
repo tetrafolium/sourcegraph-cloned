@@ -6,8 +6,8 @@ import (
 
 	"github.com/inconshreveable/log15"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/campaigns"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/github"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/campaigns"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/github"
 )
 
 // changesetHistory is a collection of external changeset states
@@ -163,7 +163,7 @@ func computeHistory(ch *campaigns.Changeset, ce ChangesetEvents) (changesetHisto
 			// events since GitHub updates the original
 			// ChangesetEventKindGitHubReviewed event when a review has been
 			// dismissed.
-			// See: https://github.com/tetrafolium/sourcegraph/pull/9461
+			// See: https://github.com/tetrafolium/sourcegraph-cloned/pull/9461
 			continue
 
 		case campaigns.ChangesetEventKindBitbucketServerUnapproved,

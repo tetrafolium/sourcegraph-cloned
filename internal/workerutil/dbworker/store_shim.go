@@ -5,8 +5,8 @@ import (
 	"errors"
 
 	"github.com/keegancsmith/sqlf"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil"
-	"github.com/tetrafolium/sourcegraph/internal/workerutil/dbworker/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/workerutil/dbworker/store"
 )
 
 // storeShim converts a store.Store into a workerutil.Store.

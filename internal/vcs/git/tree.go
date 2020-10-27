@@ -16,10 +16,10 @@ import (
 
 	"github.com/golang/groupcache/lru"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/util"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/util"
 )
 
 // Lstat returns a FileInfo describing the named file at commit. If the file is a symbolic link, the

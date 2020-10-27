@@ -3,8 +3,8 @@
 package app
 
 import (
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/app"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/internal/app/jscontext"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/app"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/app/jscontext"
 )
 
 type SignOutURL = app.SignOutURL

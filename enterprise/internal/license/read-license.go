@@ -16,7 +16,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/license"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/license"
 	"golang.org/x/crypto/ssh"
 )
 

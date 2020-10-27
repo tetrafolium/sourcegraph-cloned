@@ -3,7 +3,7 @@ package db
 import (
 	"context"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
 )
 
 type MockSettings struct {

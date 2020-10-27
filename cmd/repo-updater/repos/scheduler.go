@@ -8,12 +8,12 @@ import (
 	"time"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	gitserverprotocol "github.com/tetrafolium/sourcegraph/internal/gitserver/protocol"
-	"github.com/tetrafolium/sourcegraph/internal/mutablelimiter"
-	"github.com/tetrafolium/sourcegraph/internal/repoupdater/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	gitserverprotocol "github.com/tetrafolium/sourcegraph-cloned/internal/gitserver/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/mutablelimiter"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/repoupdater/protocol"
 )
 
 // schedulerConfig tracks the active scheduler configuration.

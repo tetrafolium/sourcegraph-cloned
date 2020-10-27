@@ -1,6 +1,6 @@
 package graphqlbackend
 
-import "github.com/tetrafolium/sourcegraph/internal/markdown"
+import "github.com/tetrafolium/sourcegraph-cloned/internal/markdown"
 
 type Markdown string
 

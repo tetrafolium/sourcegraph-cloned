@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	bk "github.com/tetrafolium/sourcegraph/internal/buildkite"
+	bk "github.com/tetrafolium/sourcegraph-cloned/internal/buildkite"
 )
 
 var allDockerImages = []string{
@@ -346,7 +346,7 @@ func addCandidateDockerImage(c Config, app string) func(*bk.Pipeline) {
 			// Building Docker images located under 4REPO_ROOT/cmd/
 			cmdDir := func() string {
 				if _, err := os.Stat(filepath.Join("enterprise/cmd", app)); err != nil {
-					fmt.Fprintf(os.Stderr, "github.com/tetrafolium/sourcegraph/enterprise/cmd/%s does not exist so building github.com/tetrafolium/sourcegraph/cmd/%s instead\n", app, app)
+					fmt.Fprintf(os.Stderr, "github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/%s does not exist so building github.com/tetrafolium/sourcegraph-cloned/cmd/%s instead\n", app, app)
 					return "cmd/" + app
 				}
 				return "enterprise/cmd/" + app

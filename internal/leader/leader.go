@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/internal/rcache"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/rcache"
 )
 
 const (

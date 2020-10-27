@@ -12,8 +12,8 @@ import (
 	"strconv"
 
 	"github.com/jordan-wright/email"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/internal/txemail/txtypes"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/txemail/txtypes"
 )
 
 // Message describes an email message to be sent.

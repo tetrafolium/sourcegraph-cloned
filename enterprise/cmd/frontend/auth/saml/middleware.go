@@ -11,10 +11,10 @@ import (
 
 	"github.com/inconshreveable/log15"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/auth"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/auth/providers"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/external/session"
-	"github.com/tetrafolium/sourcegraph/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/auth"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/auth/providers"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/external/session"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
 )
 
 // All SAML endpoints are under this path prefix.
@@ -147,7 +147,7 @@ func samlSPHandler(w http.ResponseWriter, r *http.Request) {
 		// 🚨 SECURITY: TODO(sqs): We *should* uncomment the line below to make our own sessions
 		// only last for as long as the IdP said the authn grant is active for. Unfortunately,
 		// until we support refreshing SAML authn in the background
-		// (https://github.com/tetrafolium/sourcegraph/issues/11340), this provides a bad user
+		// (https://github.com/tetrafolium/sourcegraph-cloned/issues/11340), this provides a bad user
 		// experience because users need to re-authenticate via SAML every minute or so
 		// (assuming their SAML IdP, like many, has a 1-minute access token validity period).
 		//

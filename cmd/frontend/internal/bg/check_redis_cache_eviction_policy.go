@@ -7,7 +7,7 @@ import (
 
 	"github.com/gomodule/redigo/redis"
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/internal/redispool"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/redispool"
 )
 
 const recommendedPolicy = "allkeys-lru"

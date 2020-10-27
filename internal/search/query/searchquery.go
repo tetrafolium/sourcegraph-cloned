@@ -6,8 +6,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/tetrafolium/sourcegraph/internal/search/query/syntax"
-	"github.com/tetrafolium/sourcegraph/internal/search/query/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search/query/syntax"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search/query/types"
 )
 
 // All field names.

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/tetrafolium/sourcegraph/internal/jsonc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/jsonc"
 )
 
 type jsonIndexConfiguration struct {

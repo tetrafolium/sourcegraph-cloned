@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/gitserver"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
 )
 
 // Updater calculates, denormalizes, and stores the set of uploads visible from every commit

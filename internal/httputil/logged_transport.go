@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
 )
 
 func init() {

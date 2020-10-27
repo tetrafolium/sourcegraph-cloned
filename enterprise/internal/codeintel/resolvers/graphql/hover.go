@@ -2,7 +2,7 @@ package graphql
 
 import (
 	"github.com/sourcegraph/go-lsp"
-	gql "github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
+	gql "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
 )
 
 type HoverResolver struct {

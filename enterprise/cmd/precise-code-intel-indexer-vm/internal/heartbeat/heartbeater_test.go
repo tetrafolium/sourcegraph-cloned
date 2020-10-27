@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	indexmanager "github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-indexer-vm/internal/index_manager"
-	queuemocks "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/queue/client/mocks"
+	indexmanager "github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-indexer-vm/internal/index_manager"
+	queuemocks "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/queue/client/mocks"
 )
 
 func TestHeartbeat(t *testing.T) {

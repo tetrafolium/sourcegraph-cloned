@@ -1,8 +1,8 @@
 package hubspotutil
 
 import (
-	"github.com/tetrafolium/sourcegraph/internal/env"
-	"github.com/tetrafolium/sourcegraph/internal/hubspot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/hubspot"
 )
 
 // HubSpotHAPIKey is used by some requests to access their respective API endpoints

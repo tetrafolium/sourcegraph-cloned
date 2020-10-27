@@ -3,8 +3,8 @@ package graphql
 import (
 	"context"
 
-	gql "github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/resolvers"
+	gql "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/resolvers"
 )
 
 type CodeIntelligenceRangeConnectionResolver struct {

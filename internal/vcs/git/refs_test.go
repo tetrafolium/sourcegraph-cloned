@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
 )
 
 func TestHumanReadableBranchName(t *testing.T) {
@@ -306,7 +306,7 @@ func TestRepository_ListTags(t *testing.T) {
 	}
 }
 
-// See https://github.com/tetrafolium/sourcegraph/issues/5453
+// See https://github.com/tetrafolium/sourcegraph-cloned/issues/5453
 func TestRepository_parseTags_WithoutCreatorDate(t *testing.T) {
 	have, err := parseTags([]byte(
 		"9ee1c939d1cb936b1f98e8d81aeffab57bae46ab\x00v2.6.12\x001119037709\n" +

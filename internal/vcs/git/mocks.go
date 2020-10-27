@@ -4,8 +4,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
 )
 
 // Mocks is used to mock behavior in tests. Tests must call ResetMocks() when finished to ensure its

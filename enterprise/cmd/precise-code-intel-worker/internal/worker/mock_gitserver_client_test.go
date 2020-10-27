@@ -4,13 +4,13 @@ package worker
 
 import (
 	"context"
-	store "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
+	store "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
 	"sync"
 )
 
 // MockGitserverClient is a mock implementation of the gitserverClient
 // interface (from the package
-// github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-worker/internal/worker)
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-worker/internal/worker)
 // used for unit testing.
 type MockGitserverClient struct {
 	// DirectoryChildrenFunc is an instance of a mock function object
@@ -33,7 +33,7 @@ func NewMockGitserverClient() *MockGitserverClient {
 
 // surrogateMockGitserverClient is a copy of the gitserverClient interface
 // (from the package
-// github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-worker/internal/worker).
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-worker/internal/worker).
 // It is redefined here as it is unexported in the source packge.
 type surrogateMockGitserverClient interface {
 	DirectoryChildren(context.Context, store.Store, int, string, []string) (map[string][]string, error)

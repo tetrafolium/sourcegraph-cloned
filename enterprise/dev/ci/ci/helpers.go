@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/tetrafolium/sourcegraph/internal/lazyregexp"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/lazyregexp"
 )
 
 // Config is the set of configuration parameters that determine the structure of the CI build. These

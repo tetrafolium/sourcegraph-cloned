@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/google/zoekt/ignore"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/store"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/git"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
 )
 
 // NewFilter is a wrapper around newIgnoreMatcher.

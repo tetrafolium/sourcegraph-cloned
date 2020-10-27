@@ -6,9 +6,9 @@ import (
 	"fmt"
 
 	pkgerrors "github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/database"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence"
-	postgresreader "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/persistence/postgres"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/database"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence"
+	postgresreader "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/persistence/postgres"
 )
 
 // BundleClient is the interface to the precise-code-intel-bundle-manager service scoped to a particular dump.

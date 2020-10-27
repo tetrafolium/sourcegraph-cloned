@@ -6,8 +6,8 @@ import (
 
 	"github.com/beevik/etree"
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 // SignOut returns the URL where the user can initiate a logout from the SAML IdentityProvider, if

@@ -5,8 +5,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/routevar"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/routevar"
 
 	"github.com/gorilla/mux"
 )

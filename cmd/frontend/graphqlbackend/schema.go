@@ -6,7 +6,7 @@ package graphqlbackend
 
 // Schema is the raw graqhql schema
 var Schema = `# Run this before committing changes to this file
-# go generate github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend
+# go generate github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend
 # This will happen automatically if you are running ./dev/start.sh
 #
 # See docs/api.md for guidance on schema evolution.
@@ -624,7 +624,7 @@ type Mutation {
     createChangesetSpec(
         """
         The raw changeset spec (as JSON). See
-        https://sourcegraph.com/github.com/tetrafolium/sourcegraph/-/blob/schema/changeset_spec.schema.json
+        https://sourcegraph.com/github.com/tetrafolium/sourcegraph-cloned/-/blob/schema/changeset_spec.schema.json
         for the JSON Schema that describes the structure of this input.
         """
         changesetSpec: String!
@@ -646,7 +646,7 @@ type Mutation {
 
         """
         The campaign spec as YAML (or the equivalent JSON). See
-        https://sourcegraph.com/github.com/tetrafolium/sourcegraph/-/blob/schema/campaign_spec.schema.json
+        https://sourcegraph.com/github.com/tetrafolium/sourcegraph-cloned/-/blob/schema/campaign_spec.schema.json
         for the JSON Schema that describes the structure of this input.
         """
         campaignSpec: String!

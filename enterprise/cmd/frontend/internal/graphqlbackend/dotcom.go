@@ -1,9 +1,9 @@
 package graphqlbackend
 
 import (
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/frontend/internal/dotcom/billing"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/frontend/internal/dotcom/productsubscription"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/frontend/internal/dotcom/billing"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/frontend/internal/dotcom/productsubscription"
 )
 
 func init() {

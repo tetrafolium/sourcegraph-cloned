@@ -236,7 +236,7 @@ func (c *Client) GraphQL(name, token, query string, variables map[string]interfa
 		req.Header.Set("Authorization", fmt.Sprintf("token %s", token))
 	} else {
 		// NOTE: We use this header to protect from CSRF attacks of HTTP API,
-		// see https://sourcegraph.com/github.com/tetrafolium/sourcegraph/-/blob/cmd/frontend/internal/cli/http.go#L41-42
+		// see https://sourcegraph.com/github.com/tetrafolium/sourcegraph-cloned/-/blob/cmd/frontend/internal/cli/http.go#L41-42
 		req.Header.Set("X-Requested-With", "Sourcegraph")
 		req.AddCookie(c.csrfCookie)
 		req.AddCookie(c.sessionCookie)

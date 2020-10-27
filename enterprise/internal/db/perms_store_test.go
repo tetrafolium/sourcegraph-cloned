@@ -17,9 +17,9 @@ import (
 	"github.com/lib/pq"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/authz"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/authz"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
 )
 
 func cleanupPermsTables(t *testing.T, s *PermsStore) {

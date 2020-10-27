@@ -1,11 +1,11 @@
 package db
 
 import (
-	"github.com/tetrafolium/sourcegraph/internal/authz/bitbucketserver"
-	"github.com/tetrafolium/sourcegraph/internal/authz/github"
-	"github.com/tetrafolium/sourcegraph/internal/authz/gitlab"
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/authz/bitbucketserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/authz/github"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/authz/gitlab"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 // NewExternalServicesStore returns an OSS db.ExternalServicesStore set with

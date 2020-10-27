@@ -16,11 +16,11 @@ import (
 	"github.com/stripe/stripe-go/invoice"
 	"github.com/stripe/stripe-go/plan"
 	"github.com/stripe/stripe-go/sub"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend/graphqlutil"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/frontend/internal/dotcom/billing"
-	db_ "github.com/tetrafolium/sourcegraph/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend/graphqlutil"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/frontend/internal/dotcom/billing"
+	db_ "github.com/tetrafolium/sourcegraph-cloned/internal/db"
 )
 
 func init() {

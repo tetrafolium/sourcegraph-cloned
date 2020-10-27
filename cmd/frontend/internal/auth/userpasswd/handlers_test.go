@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
 )
 
 func TestCheckEmailAbuse(t *testing.T) {

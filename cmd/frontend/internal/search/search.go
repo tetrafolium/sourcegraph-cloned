@@ -1,5 +1,5 @@
 // package search is search specific logic for the frontend. Also see
-// github.com/tetrafolium/sourcegraph/internal/search for more generic search
+// github.com/tetrafolium/sourcegraph-cloned/internal/search for more generic search
 // code.
 package search
 
@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/graphqlbackend"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/graphqlbackend"
 )
 
 // ServeStream is an http handler which streams back search results.

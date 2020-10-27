@@ -9,15 +9,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tetrafolium/sourcegraph/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
 
 	"github.com/inconshreveable/log15"
 	"github.com/jmoiron/sqlx"
 	"github.com/keegancsmith/sqlf"
 	"github.com/opentracing/opentracing-go/ext"
 	otlog "github.com/opentracing/opentracing-go/log"
-	"github.com/tetrafolium/sourcegraph/internal/symbols/protocol"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/symbols/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 	nettrace "golang.org/x/net/trace"
 )
 

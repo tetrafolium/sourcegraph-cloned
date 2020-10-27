@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/machinebox/graphql"
-	"github.com/tetrafolium/sourcegraph/internal/testutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/testutil"
 	"golang.org/x/oauth2"
 )
 

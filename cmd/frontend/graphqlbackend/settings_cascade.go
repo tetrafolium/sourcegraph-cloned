@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/tetrafolium/sourcegraph/internal/db"
-	"github.com/tetrafolium/sourcegraph/internal/jsonc"
-	"github.com/tetrafolium/sourcegraph/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/jsonc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
 )
 
 // settingsCascade implements the GraphQL type SettingsCascade (and the deprecated type ConfigurationCascade).

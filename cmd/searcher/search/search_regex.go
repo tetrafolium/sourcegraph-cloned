@@ -14,10 +14,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/tetrafolium/sourcegraph/cmd/searcher/protocol"
-	"github.com/tetrafolium/sourcegraph/internal/pathmatch"
-	"github.com/tetrafolium/sourcegraph/internal/store"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/searcher/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/pathmatch"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/store"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 
 	"github.com/opentracing/opentracing-go/ext"
 	otlog "github.com/opentracing/opentracing-go/log"

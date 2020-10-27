@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/internal/testutil"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/testutil"
 )
 
 func TestMatchesUnmarshalling(t *testing.T) {

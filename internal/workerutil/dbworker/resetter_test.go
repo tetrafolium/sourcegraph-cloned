@@ -6,7 +6,7 @@ import (
 
 	"github.com/efritz/glock"
 	"github.com/prometheus/client_golang/prometheus"
-	storemocks "github.com/tetrafolium/sourcegraph/internal/workerutil/dbworker/store/mocks"
+	storemocks "github.com/tetrafolium/sourcegraph-cloned/internal/workerutil/dbworker/store/mocks"
 )
 
 func TestResetter(t *testing.T) {

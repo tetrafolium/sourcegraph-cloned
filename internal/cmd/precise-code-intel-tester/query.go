@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/tetrafolium/sourcegraph/internal/cmd/precise-code-intel-tester/util"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/cmd/precise-code-intel-tester/util"
 )
 
 // queryCommand runs the "query" command.

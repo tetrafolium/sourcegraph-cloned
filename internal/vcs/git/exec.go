@@ -10,9 +10,9 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
-	"github.com/tetrafolium/sourcegraph/internal/vcs"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs"
 )
 
 // checkSpecArgSafety returns a non-nil err if spec begins with a "-", which could

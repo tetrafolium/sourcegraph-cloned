@@ -5,7 +5,7 @@ import (
 	"database/sql"
 
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/db/dbconn"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db/dbconn"
 
 	"github.com/keegancsmith/sqlf"
 )

@@ -8,8 +8,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/globals"
-	"github.com/tetrafolium/sourcegraph/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/globals"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
 )
 
 // goImportMetaTag represents a go-import meta tag.

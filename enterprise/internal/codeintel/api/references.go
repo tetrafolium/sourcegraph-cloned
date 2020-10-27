@@ -7,10 +7,10 @@ import (
 
 	"github.com/inconshreveable/log15"
 	pkgerrors "github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bloomfilter"
-	bundles "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/types"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bloomfilter"
+	bundles "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/types"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
 )
 
 // RemoteDumpLimit is the limit for fetching batches of remote dumps.

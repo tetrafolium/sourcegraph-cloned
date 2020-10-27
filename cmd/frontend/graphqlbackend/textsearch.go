@@ -11,21 +11,21 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/trace"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace"
 
 	otlog "github.com/opentracing/opentracing-go/log"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/endpoint"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
-	"github.com/tetrafolium/sourcegraph/internal/gitserver"
-	"github.com/tetrafolium/sourcegraph/internal/mutablelimiter"
-	"github.com/tetrafolium/sourcegraph/internal/search"
-	querytypes "github.com/tetrafolium/sourcegraph/internal/search/query/types"
-	"github.com/tetrafolium/sourcegraph/internal/search/searcher"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/git"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/endpoint"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/gitserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/mutablelimiter"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search"
+	querytypes "github.com/tetrafolium/sourcegraph-cloned/internal/search/query/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/search/searcher"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
 )
 
 const maxUnindexedRepoRevSearchesPerQuery = 200

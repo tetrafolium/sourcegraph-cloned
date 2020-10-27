@@ -5,7 +5,7 @@ package goroutine
 import "sync"
 
 // MockFinalizer is a mock implementation of the Finalizer interface (from
-// the package github.com/tetrafolium/sourcegraph/internal/goroutine) used
+// the package github.com/tetrafolium/sourcegraph-cloned/internal/goroutine) used
 // for unit testing.
 type MockFinalizer struct {
 	// OnShutdownFunc is an instance of a mock function object controlling

@@ -7,7 +7,7 @@ import (
 
 	"github.com/inconshreveable/log15"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tetrafolium/sourcegraph/internal/metrics"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/metrics"
 )
 
 func (s *Server) RegisterMetrics() {

@@ -6,12 +6,12 @@ import (
 	"context"
 	"sync"
 
-	clienttypes "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/bundles/client_types"
+	clienttypes "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/bundles/client_types"
 )
 
 // MockPositionAdjuster is a mock implementation of the PositionAdjuster
 // interface (from the package
-// github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/resolvers)
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/resolvers)
 // used for unit testing.
 type MockPositionAdjuster struct {
 	// AdjustPathFunc is an instance of a mock function object controlling

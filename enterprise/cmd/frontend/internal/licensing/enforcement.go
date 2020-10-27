@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/internal/errcode"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/errcode"
 )
 
 // NewPreCreateUserHook returns a PreCreateUserHook closure with

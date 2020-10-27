@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/tetrafolium/sourcegraph/internal/metrics"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/metrics"
 )
 
 func TestRemoveOldUploadFiles(t *testing.T) {

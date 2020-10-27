@@ -9,9 +9,9 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/google/go-cmp/cmp"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	gitserverprotocol "github.com/tetrafolium/sourcegraph/internal/gitserver/protocol"
-	"github.com/tetrafolium/sourcegraph/internal/mutablelimiter"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	gitserverprotocol "github.com/tetrafolium/sourcegraph-cloned/internal/gitserver/protocol"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/mutablelimiter"
 )
 
 var defaultTime = time.Date(2000, 1, 1, 1, 1, 1, 1, time.UTC)

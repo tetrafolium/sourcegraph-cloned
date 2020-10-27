@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/stripe/stripe-go"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/external/app"
-	"github.com/tetrafolium/sourcegraph/internal/env"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/external/app"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/env"
 )
 
 var (

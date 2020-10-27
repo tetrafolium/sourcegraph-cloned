@@ -11,10 +11,10 @@ import (
 
 	"github.com/gorilla/csrf"
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/auth"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/auth/providers"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/external/session"
-	"github.com/tetrafolium/sourcegraph/internal/actor"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/auth"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/auth/providers"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/external/session"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/actor"
 	"golang.org/x/oauth2"
 
 	"github.com/coreos/go-oidc"
@@ -232,7 +232,7 @@ func authHandler(w http.ResponseWriter, r *http.Request) {
 		// 🚨 SECURITY: TODO(sqs): We *should* uncomment the lines below to make our own sessions
 		// only last for as long as the OP said the access token is active for. Unfortunately,
 		// until we support refreshing access tokens in the background
-		// (https://github.com/tetrafolium/sourcegraph/issues/11340), this provides a bad user
+		// (https://github.com/tetrafolium/sourcegraph-cloned/issues/11340), this provides a bad user
 		// experience because users need to re-authenticate via OIDC every minute or so
 		// (assuming their OIDC OP, like many, has a 1-minute access token validity period).
 		//

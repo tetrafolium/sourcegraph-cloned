@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/backend"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/lazyregexp"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/backend"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/lazyregexp"
 )
 
 func editorRev(ctx context.Context, repoName api.RepoName, rev string, beExplicit bool) (string, error) {

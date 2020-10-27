@@ -13,11 +13,11 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/gorilla/mux"
-	"github.com/tetrafolium/sourcegraph/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
 
-	apirouter "github.com/tetrafolium/sourcegraph/cmd/frontend/internal/httpapi/router"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/types"
-	"github.com/tetrafolium/sourcegraph/internal/db"
+	apirouter "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/httpapi/router"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/types"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/db"
 )
 
 func TestGitServiceHandlers(t *testing.T) {

@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tetrafolium/sourcegraph/internal/conf/confdefaults"
-	"github.com/tetrafolium/sourcegraph/internal/conf/conftypes"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf/confdefaults"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf/conftypes"
 
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 func TestSearchIndexEnabled(t *testing.T) {

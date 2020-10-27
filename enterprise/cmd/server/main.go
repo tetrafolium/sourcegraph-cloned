@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/tetrafolium/sourcegraph/cmd/server/shared"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/server/shared"
 )
 
 func main() {

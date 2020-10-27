@@ -4,14 +4,14 @@ package indexabilityupdater
 
 import (
 	"context"
-	store "github.com/tetrafolium/sourcegraph/enterprise/internal/codeintel/store"
+	store "github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/codeintel/store"
 	"regexp"
 	"sync"
 )
 
 // MockGitserverClient is a mock implementation of the gitserverClient
 // interface (from the package
-// github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-indexer/internal/indexability_updater)
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-indexer/internal/indexability_updater)
 // used for unit testing.
 type MockGitserverClient struct {
 	// HeadFunc is an instance of a mock function object controlling the
@@ -42,7 +42,7 @@ func NewMockGitserverClient() *MockGitserverClient {
 
 // surrogateMockGitserverClient is a copy of the gitserverClient interface
 // (from the package
-// github.com/tetrafolium/sourcegraph/enterprise/cmd/precise-code-intel-indexer/internal/indexability_updater).
+// github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/precise-code-intel-indexer/internal/indexability_updater).
 // It is redefined here as it is unexported in the source packge.
 type surrogateMockGitserverClient interface {
 	Head(context.Context, store.Store, int) (string, error)

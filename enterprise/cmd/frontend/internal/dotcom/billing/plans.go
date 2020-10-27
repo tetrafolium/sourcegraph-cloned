@@ -6,7 +6,7 @@ import (
 
 	"github.com/stripe/stripe-go"
 	"github.com/stripe/stripe-go/plan"
-	"github.com/tetrafolium/sourcegraph/enterprise/internal/license"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/internal/license"
 )
 
 // InfoForProductPlan returns the license key tags and min/max quantities that should be used for

@@ -5,14 +5,14 @@ import (
 	"net/http"
 
 	"github.com/inconshreveable/log15"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/auth"
-	"github.com/tetrafolium/sourcegraph/cmd/frontend/external/app"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/frontend/auth/githuboauth"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/frontend/auth/gitlaboauth"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/frontend/auth/httpheader"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/frontend/auth/openidconnect"
-	"github.com/tetrafolium/sourcegraph/enterprise/cmd/frontend/auth/saml"
-	"github.com/tetrafolium/sourcegraph/internal/conf"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/auth"
+	"github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/external/app"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/frontend/auth/githuboauth"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/frontend/auth/gitlaboauth"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/frontend/auth/httpheader"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/frontend/auth/openidconnect"
+	"github.com/tetrafolium/sourcegraph-cloned/enterprise/cmd/frontend/auth/saml"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf"
 )
 
 func init() {

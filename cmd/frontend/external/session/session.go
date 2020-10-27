@@ -2,7 +2,7 @@
 // parent package godoc for more information.
 package session
 
-import "github.com/tetrafolium/sourcegraph/cmd/frontend/internal/session"
+import "github.com/tetrafolium/sourcegraph-cloned/cmd/frontend/internal/session"
 
 var (
 	ResetMockSessionStore        = session.ResetMockSessionStore

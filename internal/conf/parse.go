@@ -3,9 +3,9 @@ package conf
 import (
 	"encoding/json"
 
-	"github.com/tetrafolium/sourcegraph/internal/conf/conftypes"
-	"github.com/tetrafolium/sourcegraph/internal/jsonc"
-	"github.com/tetrafolium/sourcegraph/schema"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/conf/conftypes"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/jsonc"
+	"github.com/tetrafolium/sourcegraph-cloned/schema"
 )
 
 // parseConfigData parses the provided config string into the given cfg struct

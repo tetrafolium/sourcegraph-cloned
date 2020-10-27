@@ -7,13 +7,13 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/sourcegraph/go-diff/diff"
-	"github.com/tetrafolium/sourcegraph/internal/api"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/bitbucketserver"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/github"
-	"github.com/tetrafolium/sourcegraph/internal/extsvc/gitlab"
-	gitlabwebhooks "github.com/tetrafolium/sourcegraph/internal/extsvc/gitlab/webhooks"
-	"github.com/tetrafolium/sourcegraph/internal/vcs/git"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/api"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/bitbucketserver"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/github"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/gitlab"
+	gitlabwebhooks "github.com/tetrafolium/sourcegraph-cloned/internal/extsvc/gitlab/webhooks"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/vcs/git"
 )
 
 // ChangesetPublicationState defines the possible publication states of a Changeset.

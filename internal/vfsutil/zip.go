@@ -8,7 +8,7 @@ import (
 	"golang.org/x/net/context/ctxhttp"
 
 	"github.com/pkg/errors"
-	"github.com/tetrafolium/sourcegraph/internal/trace/ot"
+	"github.com/tetrafolium/sourcegraph-cloned/internal/trace/ot"
 
 	"github.com/opentracing/opentracing-go/ext"
 )
